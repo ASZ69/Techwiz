@@ -9,3 +9,12 @@
 	width: 100%;
 	height: 56px;
 }
+
+.nav-color{
+	background-color: #ccc;
+}
+
+.nav-logo{
+	width: 46px;
+	height: 46px;
+}
