@@ -7,7 +7,7 @@
 
 .navbar{
 	width: 100%;
-	height: 95px;	
+	height: 95px;
 }
 
 .nav-color{
@@ -24,29 +24,14 @@
 	font-weight: 700;
 	letter-spacing: 1.28px;
 	font-size: 2vw;
+	transition: opacity 0.24s ease-in-out;
 }
 .textFontsize{
 	font-size: 1.2vw;
 	font-weight: 700;
 	letter-spacing: 1.28px;
-	
+	transition: opacity 0.24s ease-in-out;
 }
 .textFontsize:hover{
-/*	overflow-y: hidden;*/
-/*	border-bottom: 2px solid rgba(195,0,3,1.00);*/
-}
-.navbar-fixed-top.scrolled {
-  background-color: rgba(104,99,99,1.00)!important;
-  transition: background-color 200ms linear;
-  height: 80px;
-  transition: 0.8s all;
-}
-.footer-div {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  vertical-align: bottom;
-  color: white;
-  line-height: 50px;
-  text-align: center;
+	border-bottom: 2px solid rgba(195,0,3,1.00);
 }
