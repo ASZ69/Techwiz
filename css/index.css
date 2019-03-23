@@ -37,7 +37,6 @@
 }
 .navbar-fixed-top.scrolled {
   background-color: rgba(104,99,99,1.00)!important;
-  transition: background-color 200ms linear;
   height: 80px;
   transition: 0.8s all;
 }
@@ -50,3 +49,145 @@
   line-height: 50px;
   text-align: center;
 }
+
+.top-img {
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+.top-img-font {
+	position: absolute;
+	top: 55%;
+	left: 7%;
+	color: white;
+	
+}
+.top-img-font>h1{
+	font-size: 3.4vw;
+	font-weight: bolder;
+}
+
+.top-img-font>h3{
+	font-size: 2.5vw;
+	font-weight: bolder;
+}
+/*Buttons*/
+.top-Button {
+	cursor: pointer;
+    background: red;
+    text-align: center;
+    border-radius: 3px;
+    padding: 13px 34px;
+    border: none;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 var(--hover-color);
+	font-weight: bold;
+}
+
+    .top-Button:hover {
+		color: white;
+        opacity: 0.8;
+        background-color:var(--hover-color);
+        text-decoration: none;
+		box-shadow:0 8px 16px 0 var(--bg-color);
+        
+    }
+
+.padBtn {
+	margin-left: 12%;
+	margin-top: 30px;
+}
+
+.mar-btn2 {
+	display: inline-block;
+	margin-left: 5%;
+	
+}
+
+.mar-btn1 {
+	display: inline-block;
+}
+
+.sec-row-div {
+	margin-top: 7%;
+	margin-bottom: 5%;
+	width: 100%;
+	text-align: center;
+}
+
+.sec-row-div>h3{
+	font-size: 1.2;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+.sec-row-div>h1{
+	font-size: 3vw;
+	font-weight: bolder;
+}
+
+.sec-row-div>p{
+	font-size: 1.2vw;
+	font-weight: bold;
+	
+}
+
+
+
+
+.outer-circle {
+	position: relative;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+    border:1vw solid #000000;
+     margin-left: 12%;	
+}
+
+.circle-div {
+	background: rgba(0,0,0,0.83);
+	height:auto;
+	padding-top: 20%;
+	width: 100%;
+}
+
+.inner-circle {
+	height: 12vw;
+	width: 12vw;
+	border-radius: 50%;
+    background-color: #3F3E3E;
+/*	margin: 0.9vw;*/
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.inner-circle>div{
+	position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.round-text1{
+	padding-top: 10%;
+	text-align: center;
+	font-size: 4vw;
+	font-weight: bolder;
+}
+.round-text2{
+	text-align: center;
+	font-size: 2vw;
+	margin-left: 23%;
+	font-weight: bolder;
+}
+
+.bg-img {
+	position: relative;
+	width: 100%;
+	background: red;
+	height: auto;
+	
+}
+
