@@ -38,15 +38,7 @@
   height: 80px;
   transition: 0.8s all;
 }
-.footer-div {
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  vertical-align: bottom;
-  color: white;
-  line-height: 50px;
-  text-align: center;
-}
+
 
 .top-img {
 	height: auto;
@@ -226,5 +218,5 @@
 }
 
 .card-img {
-	
+	display: block;
 }
