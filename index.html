@@ -1,188 +1,50 @@
 <!doctype html>
 <html>
+
 <head>
-	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script src="js/common.js"></script>
-	
-	<link rel="stylesheet" href="css/index.css" />
-	<link rel="stylesheet" href="css/common.css" />
-	<link rel="stylesheet" href="css/about-panel.css" />
-	
-	<title>Job Portal</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/about-panel.css" />
+
+    <title>Job Portal</title>
 </head>
-	
+
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
         <a class="navbar-brand navContentborder" href="#">
             <img src="images/logo.png" class="nav-logo" alt="LOGO"> Job Portals
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
 
-				<li class="nav-item dropdown textFontsize mr-5">
+                <li class="nav-item dropdown textFontsize mr-5">
                     <a href="view/about.html" class="nav-link">Home</a>
                 </li>
-				
-				<li class="nav-item dropdown textFontsize mr-5">
+
+                <li class="nav-item dropdown textFontsize mr-5">
                     <a href="view/about.html" class="nav-link">Jobs</a>
                 </li>
-				
-<!--
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Cricket</a>
-                    <div class="dropdown-menu mega-menu">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <a href="view/cricket.html">
-                                    <div class="position-relative mr-tb-15" style="width: 100%; height: 10vw;">
-                                        <img src="images/logo/ball.png" width="100vw" height="auto" alt="flower" class="img-fluid img-thumbnail abs-center">
-                                    </div>
-                                    <h4 style="color: orangered;" class="text-center mr-tb-15">Cricket</h4>
-                                    <p class="text-center">View more...</p>
-                                </a>
-                            </div>
-                            <div class="col-md-3">
-                                <p>
-                                    <strong class="sub-menu-heading">
-                                        <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22%22">
-                                            ICC ODI WorldCup
-                                        </a>
-                                    </strong>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 1996%22">
-                                        ICC 1996
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 1999%22">
-                                        ICC 1999
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 2003%22">
-                                        ICC 2003
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 2007%22">
-                                        ICC 2007
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 2011%22">
-                                        ICC 2011
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC ODI WorldCup%22&season=%22ICC 2015%22">
-                                        ICC 2015
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="col-md-3">
-                                <p>
-                                    <strong class="sub-menu-heading">
-                                        <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22%22">
-                                            ICC T-20 World Cup
-                                        </a>
-                                    </strong>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2007%22">
-                                        ICC 2007
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2009%22">
-                                        ICC 2009
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2010%22">
-                                        ICC 2010
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2012%22">
-                                        ICC 2012
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2014%22">
-                                        ICC 2014
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22ICC T20 WorldCup%22&season=%22ICC 2016%22">
-                                        ICC 2016
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="col-md-3">
-                                <p>
-                                    <strong class="sub-menu-heading">
-                                        <a href="view/cricket.html?cat=%22Pakistan Super League%22&season=%22%22">
-                                            PSL
-                                        </a>
-                                    </strong>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22Pakistan Super League%22&season=%22PSL 2016%22">
-                                        PSL 2016
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22Pakistan Super League%22&season=%22PSL 2017%22">
-                                        PSL 2017
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22Pakistan Super League%22&season=%22PSL 2018%22">
-                                        PSL 2018
-                                    </a>
-                                </p>
-                                <p>
-                                    <strong class="sub-menu-heading">
-                                        <a href="view/cricket.html?cat=%22Indian Premier League%22&season=%22%22">
-                                            IPL
-                                        </a>
-                                    </strong>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22Indian Premier League%22&season=%22IPL 2017%22">
-                                        IPL 2017
-                                    </a>
-                                </p>
-                                <p>
-                                    <a href="view/cricket.html?cat=%22Indian Premier League%22&season=%22IPL 2018%22">
-                                        IPL 2018
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </li>
--->
 
                 <li class="nav-item dropdown textFontsize mr-5">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Job List</a>
+                        aria-haspopup="true" aria-expanded="false">Job List</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" onClick="changeTheme(this)" href="#">Day</a>
                         <a class="dropdown-item" onClick="changeTheme(this)" href="#">Day (Colored)</a>
@@ -191,10 +53,10 @@
                     </div>
                 </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
+                <li class="nav-item dropdown textFontsize mr-5">
                     <a href="view/about.html" class="nav-link">Contact Us</a>
                 </li>
-				
+
                 <li class="nav-item dropdown textFontsize mr-5">
                     <a href="view/about.html" class="nav-link">About Us</a>
                 </li>
@@ -202,222 +64,236 @@
             </ul>
         </div>
     </nav>
-	
-	<div class="content">
-			
-	     	
-		<div class="top-img">
-			<img src="images/crousal/slide1.jpg" alt="img" width="100%" height="773px">
-			<div class="top-img-font">
-				<h1> Find And Select The Job</h1>
-				<h3>You can find and get job according to your skills..</h3>
-				<div class="padBtn">
-		   			<div class="mar-btn1"><a href="content/wonders.html?mainCat=Indonesia&subCat=Tanah-Lot" class="top-Button">Go to</a></div>
-				
-					<div class="mar-btn2"><a href="content/wonders.html?mainCat=Indonesia&subCat=Tanah-Lot" class="top-Button">Go to</a></div>
-				</div>
-			
-			</div>
-		</div>
-	<div class="container-fluid">
-		<!--2nd Row start-->
-		<div class="row">
-			<div class="sec-row-div">
-			    <h3>Space For Telenteds</h3>
-				<h1>Recent Professions</h1>
-				<p>I like the geometric visual, bold typo, easy grid and the well balan ced whitespace.
-                Gallery Photo,<br>
-                Creative Corporate, CommunityCompany Profile, Agency and other.</p>
-			</div>
-		</div>
-		
-<!--2nd Row end-->
+
+    <div class="content">
+
+
+        <div class="top-img">
+            <img src="images/crousal/slide1.jpg" alt="img" width="100%" height="773px">
+            <div class="top-img-font">
+                <h1> Find And Select The Job</h1>
+                <h3>You can find and get job according to your skills..</h3>
+                <div class="padBtn">
+                    <div class="mar-btn1"><a href="content/wonders.html?mainCat=Indonesia&subCat=Tanah-Lot"
+                            class="top-Button">Go to</a></div>
+
+                    <div class="mar-btn2"><a href="content/wonders.html?mainCat=Indonesia&subCat=Tanah-Lot"
+                            class="top-Button">Go to</a></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid">
+            <!--2nd Row start-->
+            <div class="row">
+                <div class="sec-row-div">
+                    <h3>Space For Telenteds</h3>
+                    <h1>Recent Professions</h1>
+                    <p>I like the geometric visual, bold typo, easy grid and the well balan ced whitespace.
+                        Gallery Photo,<br>
+                        Creative Corporate, CommunityCompany Profile, Agency and other.</p>
+                </div>
+            </div>
+
+            <!--2nd Row end-->
+        </div>
+        <!--3rd Row start-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 padDel">
+                    <div class="imgs-4">
+                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 padDel">
+                    <div class="imgs-4">
+                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 padDel">
+                    <div class="imgs-4">
+                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                    </div>
+                </div>
+
+
+                <div class="col-md-3 padDel">
+                    <div class="imgs-4">
+                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--3rd Row end-->
+
+        <!--4th Row start-->
+        <div class="bg-img">
+            <img src="images/crousal/slide1.jpg" alt="img" height="396px" width="100%">
+            <div class="container-fluid" style="position: absolute; top: 0; left: 0;">
+                <div class="row">
+
+                    <div class="col-md-3 padDel">
+
+                        <center>
+                            <div class="circle-div">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <div class="w-font"><span class="round-text1">45%</span><br>
+                                            <span class="round-text2">CSS</span></div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Contrary to popular belief, Lorem <br>
+                                    Ipsum is not simply
+                                </p>
+                            </div>
+                        </center>
+
+                    </div>
+
+
+                    <div class="col-md-3  padDel">
+
+                        <center>
+                            <div class="circle-div">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <div class="w-font"><span class="round-text1">90%</span><br>
+                                            <span class="round-text2">Photoshop</span></div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Contrary to popular belief, Lorem <br>
+                                    Ipsum is not simply
+                                </p>
+                            </div>
+                        </center>
+
+                    </div>
+
+                    <div class="col-md-3  padDel">
+
+                        <center>
+                            <div class="circle-div">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <div class="w-font"><span class="round-text1">69%</span><br>
+                                            <span class="round-text2">Android</span></div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Contrary to popular belief, Lorem <br>
+                                    Ipsum is not simply
+                                </p>
+                            </div>
+                        </center>
+
+                    </div>
+
+                    <div class="col-md-3  padDel">
+
+                        <center>
+                            <div class="circle-div">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <div class="w-font"><span class="round-text1">77%</span><br>
+                                            <span class="round-text2">React-nativ</span></div>
+                                    </div>
+                                </div>
+                                <p>
+                                    Contrary to popular belief, Lorem <br>
+                                    Ipsum is not simply
+                                </p>
+                            </div>
+                        </center>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--4th Row end-->
+
+        <div class="about-panel container-fluid">
+            <div class="row">
+                <div class="col-md-3 ab-first-row">
+                    <center><img alt="img" src="images/logo.png" width="200px" height="auto" /></center>
+                    <!--					<br>-->
+                    <!--					<p>We provide you best opertunities to get Jobs in a high talented working comunity.</p>-->
+                    <br><br>
+                    <center>
+                        <hr style="background-color: #1E1E1E; width: 90%;">
+                    </center>
+                    <p>Call Us - 0348-2821889</p>
+                    <p>Send Email On ranag4u69@gmail.com</p>
+                    <p>Visit Us SFC Aptech Karachi, Pakistan</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>POPULAR CATEGORIES</h3>
+                    <br>
+                    <div class="tags">
+                        <span>REACT-NATIVE</span>
+                        <span>ANDROID</span>
+                        <span>HTML &amp; CSS</span>
+                        <span>JAVASCRIPT</span>
+                        <span>REACT-JS</span>
+                        <span>JAVA</span>
+                        <span>ASP.NET</span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>GET MORE INFO</h3>
+                    <p>Get any info or give us any suggestions by contacting us.We provide you best opertunities to get
+                        Jobs quickly.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>RECENTS JOBS</h3><br>
+                    <h4>Software House Manager</h4>
+                    <h4>Content Writer</h4>
+                    <h4>Game Developer</h4>
+                    <h4>Frontend Designer</h4>
+                    <h4>Backend Server Designer</h4>
+                    <br>
+                    <br>
+
+                    <p>Get More Jobs...</p>
+                    <div class="icon-bar">
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3>CONTACT US</h3>
+                    <br>
+                    <input class="form-control" placeholder="Name" /><br>
+                    <input class="form-control" placeholder="Email" /><br>
+                    <input class="form-control" placeholder="Subject" /><br>
+                    <input class="form-control" placeholder="Content" /><br>
+                    <input type="button" class="btn btn-outline-success" value="Submit" />
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-<!--3rd Row start-->
-<div class="container-fluid">
-<div class="row">
-   <div class="col-md-3 padDel">
-      <div class="imgs-4">
-        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
-      </div>	
-   </div>
-   
-   
-   <div class="col-md-3 padDel">
-      <div class="imgs-4">
-        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
-      </div>	
-   </div>
-   
-   
-   <div class="col-md-3 padDel">
-      <div class="imgs-4">
-        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
-      </div>	
-   </div>
-   
-   
-   <div class="col-md-3 padDel">
-      <div class="imgs-4">
-        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
-      </div>	
-   </div>
-
-</div>
-</div>
-<!--3rd Row end-->
-   
-<!--4th Row start-->
-		<div class="bg-img">
-			<img src="images/crousal/slide1.jpg" alt="img" height="396px" width="100%">
-			<div class="container-fluid" style="position: absolute; top: 0; left: 0;">
-				<div class="row" >
-
-					<div class="col-md-3 padDel">
-
-					 <center><div class="circle-div">	
-						<div class="outer-circle"> 
-						  <div class="inner-circle"> 
-							<div class="w-font"><span class="round-text1">45%</span><br>
-							<span class="round-text2">CSS</span></div>
-						   </div>	 
-						 </div>
-						 <p>
-					Contrary to popular belief, Lorem <br>
-                    Ipsum is not simply
-						 </p>
-						</div></center>
-
-				   </div>
-
-					
-					<div class="col-md-3  padDel">
-
-					 <center><div class="circle-div">	
-						<div class="outer-circle"> 
-						  <div class="inner-circle"> 
-							<div class="w-font"><span class="round-text1">90%</span><br>
-							<span class="round-text2">Photoshop</span></div>
-						   </div>	 
-						 </div>
-						 <p>
-					Contrary to popular belief, Lorem <br>
-                    Ipsum is not simply
-						 </p>
-						</div></center>
-
-				   </div>
-				
-					<div class="col-md-3  padDel">
-
-					<center> <div class="circle-div">	
-						<div class="outer-circle"> 
-						  <div class="inner-circle"> 
-							<div class="w-font"><span class="round-text1">69%</span><br>
-							<span class="round-text2">Android</span></div>
-						   </div>	 
-						 </div>
-						 <p>
-					Contrary to popular belief, Lorem <br>
-                    Ipsum is not simply
-						 </p>
-						</div></center>
-
-				   </div>
-				
-					<div class="col-md-3  padDel">
-
-					 <center><div class="circle-div">	
-						<div class="outer-circle"> 
-						  <div class="inner-circle"> 
-							<div class="w-font"><span class="round-text1">77%</span><br>
-							<span class="round-text2">React-nativ</span></div>
-						   </div>	 
-						 </div>
-						 <p>
-					Contrary to popular belief, Lorem <br>
-                    Ipsum is not simply
-						 </p>
-						</div></center>
-
-				   </div>
-
-				</div>
-           	</div>
-		</div>
-	
-<!--4th Row end-->
-		
-		<div class="about-panel container-fluid">
-			<div class="row">
-				<div class="col-md-3 ab-first-row">
-					<center><img alt="img" src="images/logo.png" width="200px" height="auto"/></center>
-<!--					<br>-->
-<!--					<p>We provide you best opertunities to get Jobs in a high talented working comunity.</p>-->
-					<br><br>
-					<center><hr style="background-color: #1E1E1E; width: 90%;"></center>
-					<p>Call Us - 0348-2821889</p>
-					<p>Send Email On ranag4u69@gmail.com</p>
-					<p>Visit Us SFC Aptech Karachi, Pakistan</p>
-				</div>
-				<div class="col-md-3">
-					<h3>POPULAR CATEGORIES</h3>
-					<br>
-					<div class="tags">
-						<span>REACT-NATIVE</span>
-						<span>ANDROID</span>
-						<span>HTML &amp; CSS</span>
-						<span>JAVASCRIPT</span>
-						<span>REACT-JS</span>
-						<span>JAVA</span>
-						<span>ASP.NET</span>
-					</div>
-					<br>
-					<br>
-					<br>
-					<h3>GET MORE INFO</h3>
-					<p>Get any info or give us any suggestions by contacting us.We provide you best opertunities to get Jobs quickly.</p>
-				</div>
-				<div class="col-md-3">
-					<h3>RECENTS JOBS</h3><br>
-					<h4>Software House Manager</h4>
-					<h4>Content Writer</h4>
-					<h4>Game Developer</h4>
-					<h4>Frontend Designer</h4>
-					<h4>Backend Server Designer</h4>
-					<br>
-					<br>
-
-					<p>Get More Jobs...</p>
-					<div class="icon-bar">
-						<a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-						<a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-						<a href="#" class="google"><i class="fa fa-google"></i></a> 
-						<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-						<a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
-					</div>
-				</div>
-				<div class="col-md-3">
-					<h3>CONTACT US</h3>
-					<br>
-					<input class="form-control" placeholder="Name"/><br>
-					<input class="form-control" placeholder="Email"/><br>
-					<input class="form-control" placeholder="Subject"/><br>
-					<input class="form-control" placeholder="Content"/><br>
-					<input type="button" class="btn btn-outline-success" value="Submit"/>
-				</div>
-			</div>
-		</div>
-		
-		
-		
-			</div>
-<!--	 Footer-->
-<!--
+    <!--	 Footer-->
+    <!--
 	<div class="footer-div">
 		<footer>Copyright TechWiz &copy;- All rights Reserved</footer>
 	</div>
 -->
-	
+
 </body>
+
 </html>
