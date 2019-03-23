@@ -33,3 +33,9 @@
   line-height: 50px;
   text-align: center;
 }
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(104,99,99,1.00)!important;
+  height: 80px;
+  transition: 0.8s all;
+}
