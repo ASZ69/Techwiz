@@ -10,6 +10,8 @@
 	height: 95px;	
 }
 
+
+
 .nav-logo{
 	width: 46px;
 	height: 46px;
@@ -74,7 +76,7 @@
     background: red;
     text-align: center;
     border-radius: 3px;
-    padding: 13px 34px;
+    padding: 1vw 3vw;
     border: none;
     text-decoration: none;
     box-shadow: 0 8px 16px 0 var(--hover-color);
@@ -102,7 +104,7 @@
 }
 
 .mar-btn1 {
-	display: inline-block;
+	display: inline;
 }
 
 .sec-row-div {
@@ -137,8 +139,7 @@
 	width: 15vw;
 	height: 15vw;
 	border-radius: 50%;
-    border:1vw solid #000000;
-     margin-left: 12%;	
+    border:1vw solid #999999;	
 }
 
 .circle-div {
@@ -148,11 +149,17 @@
 	width: 100%;
 }
 
+.circle-div >p{
+	text-align:center;
+	color:#FFF;
+	width:100%;
+	}
+
 .inner-circle {
 	height: 12vw;
 	width: 12vw;
 	border-radius: 50%;
-    background-color: #3F3E3E;
+    background-color: #333;
 /*	margin: 0.9vw;*/
 	position: absolute;
 	top:50%;
@@ -192,4 +199,14 @@
 .w-font {
 	text-align: center;
 	width: 100%;
+	color:#CCC;
 }
+.imgs-4{
+	width:100%;
+	height:auto;
+	}
+.imgs-4:hover{
+	opacity:0.7;
+	cursor:pointer;
+	transition:1s;
+	}
