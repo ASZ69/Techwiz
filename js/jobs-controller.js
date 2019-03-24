@@ -73,6 +73,10 @@ jobs.controller("jobsController", function ($scope, $filter) {
 		return filteredSubSpinner[0].subCats;
 	}
 	
+	$scope.getRandomNo = function(min,max){
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+	
 	$scope.getCards = function(mainCat,subCat){
 		var filteredSubData = $filter('filter')(dataList, { mainCat: mainCat });
 		var data = filteredSubData[0].subCats;
@@ -82,3 +86,7 @@ jobs.controller("jobsController", function ($scope, $filter) {
 	}
 
 });
+
+//function getRandomNo(min,max){
+//	return Math.floor(Math.random() * (max - min + 1)) + min;
+//}
