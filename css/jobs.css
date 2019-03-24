@@ -42,13 +42,12 @@
 }
 
 .spinner-p {
-	display: flex;
 	margin: 5px 15px;
 	overflow: hidden;
 }
 
 .spinner {
-	flex: 25;
+	flex: 30;
 	margin: 5px 10px;
 }
 
@@ -73,34 +72,35 @@
 	transform: scale(1.15);
 }
 
+.tags{
+	display: flex;
+	justify-content: space-between;
+}
+
 .tag-1 {
-	flex: 10;
 	background-color: #D71518;
 }
 
 .tag-2 {
-	flex: 10;
 	background-color: #152BD7;
 }
 
 .tag-3 {
-	flex: 10;
 	background-color: #29D715;
 }
 
 .tag-4 {
-	flex: 14;
 	background-color: #D71599;
 }
 
 .tag-5 {
-	flex: 16;
 	background-color: #FF8E00;
 }
 
 .sp-label {
 	flex: 15;
 	padding: 8px 12px;
+	font-size: 1vw;
 }
 
 .cards-p {
@@ -145,4 +145,8 @@
 	border: 1px solid #ccc;
 	padding: 5px;
 	background-color: #343434;
+}
+.tag-heading {
+	padding: 12px 0px;
+	font-size: 1.15vw;
 }

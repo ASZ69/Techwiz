@@ -1,5 +1,7 @@
 // JavaScript Document
 
+var dataList = data;
+
 var jobs = angular.module("jobs", []);
 
 jobs.controller("jobsController", function ($scope, $filter) {
@@ -61,12 +63,13 @@ jobs.controller("jobsController", function ($scope, $filter) {
 //        initHover();
 //
 //    };
-
-    //	check url to get specific result
-//	$scope.eventsArray = $filter('filter')(dataList, { name: 'ICC ODI WorldCup' });
-//    $scope.categoryArray = dataList;
-    $scope.spinnerArray = ["Software Enginear","Hardware Enginear","Extra Enginear"];
+	
+    $scope.spinnerArray = dataList;
+	$scope.mainCat = dataList[0].mainCat;
+	
+	$scope.getSubSpItems = function(selectedMain){
+		var filteredSubSpinner = $filter('filter')(dataList, { mainCat: selectedMain });
+		return filteredSubSpinner[0].subCats;
+	}
 
 });
-
-var dataList = data;
