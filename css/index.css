@@ -10,23 +10,9 @@
 
 
 
-.navContentborder{
-	border: 1px solid rgba(199,192,192,1.00);
-	margin: 5%;
-	font-weight: 700;
-	letter-spacing: 1.28px;
-	font-size: 2vw;
-}
-.textFontsize{
-	font-size: 1.2vw;
-	font-weight: 700;
-	letter-spacing: 1.28px;
-	
-}
-.textFontsize:hover{
-/*	overflow-y: hidden;*/
-/*	border-bottom: 2px solid rgba(195,0,3,1.00);*/
-}
+
+
+
 
 
 
