@@ -66,10 +66,19 @@ jobs.controller("jobsController", function ($scope, $filter) {
 	
     $scope.spinnerArray = dataList;
 	$scope.mainCat = dataList[0].mainCat;
+	$scope.subCat = dataList[0].subCats[0].name;
 	
 	$scope.getSubSpItems = function(selectedMain){
 		var filteredSubSpinner = $filter('filter')(dataList, { mainCat: selectedMain });
 		return filteredSubSpinner[0].subCats;
+	}
+	
+	$scope.getCards = function(mainCat,subCat){
+		var filteredSubData = $filter('filter')(dataList, { mainCat: mainCat });
+		var data = filteredSubData[0].subCats;
+		
+		var cards = $filter('filter')(data, { name: subCat });
+		return cards[0].data;
 	}
 
 });
