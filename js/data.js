@@ -93,10 +93,31 @@ function addCat(catName){
 	});
 }
 
+function getCat(callBack){
+	db.transaction(function(tx){
+		tx.executeSql('SELECT * from categories',[],function(tx,data){
+			var result = [];
+			for(var i = 0; i < data.rows.length; i++){
+				result.push(data.rows[i].catName);
+			}
+			callBack(result);
+		},errorDB);
+	});
+}
+
 function errorDB(tx, err) {
     alert("Error processing SQL: " + err.code);
 }
 
-signUp('Awais','awa@aa.co','1234','https','emp');
+if(window.localStorage.getItem("dataInit") != "true"){
+	signUp('Awais','awa@aa.co','1234','https','emp');
+	signIn('awa@aa.co','1234');
 
-signIn('awa@aa.co','1234');
+	addCat("React-Native");
+	addCat("Javascript");
+	addCat("HTML & CSS");
+	addCat("IOS");
+	addCat("Android");
+	addCat("Angular Js");
+	localStorage.setItem("dataInit","true");
+}

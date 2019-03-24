@@ -65,6 +65,8 @@ jobs.controller("jobsController", function ($scope, $filter) {
     //	check url to get specific result
 //	$scope.eventsArray = $filter('filter')(dataList, { name: 'ICC ODI WorldCup' });
 //    $scope.categoryArray = dataList;
-    $scope.spinnerArray = [{id: '1',name: "Software Enginear"},{id: '2',name: "Hardware Enginear"},{id: '3',name: "Extra Enginear"}];
+    $scope.spinnerArray = ["Software Enginear","Hardware Enginear","Extra Enginear"];
 
 });
+
+var dataList = data;
