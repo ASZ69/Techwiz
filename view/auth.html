@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/auth.css">
+    <script type="text/javascript" src="../js/auth.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<title>Login Form Design</title>
+<body>
+<!--    login start-->
+    <div class="loginbox">
+    <img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+        <h1>Login Here</h1>
+        <form>
+            <p>Email</p>
+            <input id="logEmail" type="email" name="" placeholder="Enter Email" required>
+            <p>Password</p>
+            <input id="logpassWord" type="password" name="" placeholder="Enter Password" required>
+            <input type="submit" name="" value="Login" onClick="login(this)">
+            <a href="#" onClick="showSignUp(this)">Don't have an account?</a>
+        </form>
+        
+    </div>
+<!--    login end-->
+    
+<!--    sign Up start-->
+        <div class="signUpbox dis-none">
+           <img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+           <h1>Sign Up Here</h1>
+       <form>
+			<div class="select">
+			      <label for="sel1">Select Categories:</label>
+                  <select class="form-control" id="sel1" name="sellist1">
+                  <option>SignUp As Empolye</option>
+                  <option>SignUp to Submit Job</option>
+                  </select>
+                 <br><br>
+			</div>
+            <p>Username</p>
+            <input id="userName" type="text" name="" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input id="passWord" type="password" name="" placeholder="Enter Password" required>
+			<p>Email</p>
+            <input id="email" type="email" name="" placeholder="Enter Email" required><br>
+			<p>Profile Picture Link</p>
+			<input id="profilePic" type="url" name="" placeholder="Enter picture Link" required><br>
+		
+            <input type="submit" name="" value="Sign Up" onClick="signUp()">
+			<a href="#" onClick="showSignIn(this)">Have an Account? Sign in here</a>
+        </form>
+	
+        
+    </div>
+    
+<!--    sign Up end-->
+
+</body>
+</head>
+</html>

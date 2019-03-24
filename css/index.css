@@ -419,3 +419,12 @@ a#next:hover {
 	display: table;
 	width: 100%;
 }
+
+
+.sign {
+    float: right;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin:0 8px;
+}
