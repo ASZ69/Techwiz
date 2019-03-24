@@ -13,7 +13,7 @@
 
 .top-img-font {
 	position: absolute;
-	top: 55%;
+	top: 65%;
 	left: 7%;
 	color: white;
 
@@ -74,9 +74,10 @@
 }
 
 .sec-row-div>h3 {
-	font-size: 1.2;
+	font-size: 1.6vw;
+	color:rgba(224,4,7,1.00);
 	font-style: italic;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 .sec-row-div>h1 {
@@ -99,7 +100,7 @@
 	left: 0;
 	width: 100%;
 	height: 390px;
-	background: rgba(0, 0, 0, 0.83);
+	background: rgba(0, 0, 0, 0.63);
 }
 
 .circle-sec {
@@ -163,7 +164,6 @@
 .bg-img {
 	position: relative;
 	width: 100%;
-	background: red;
 	height: auto;
 
 }
@@ -176,15 +176,12 @@
 }
 
 .imgs-4 {
+	position: relative;
 	width: 100%;
 	height: auto;
 }
 
-.imgs-4:hover {
-	opacity: 0.7;
-	cursor: pointer;
-	transition: 1s;
-}
+
 
 .mapG {
 	width: 100%;
@@ -214,23 +211,27 @@
 
 .card-font {
 	height: auto;
+	
 }
+
+
 
 .card-font>h6 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1.6vw;
 	margin-top: 15px;
 	margin-left: 10px;
 }
 
 .card-font>p {
+	font-size: 1.3vw;
 	margin-top: 10px;
 	margin-left: 10px;
 }
 
 .card-parent {
 	background: rgba(90, 88, 88, 1.00);
-	height: auto;
+	height: 400px;
 	color: whitesmoke;
 	overflow: hidden;
 	margin-left: 5%;
@@ -256,6 +257,7 @@
 	margin-top: 10px;
 	margin-left: 20px;
 	font-weight: 500;
+	font-size: 1.3vw;
 }
 
 /*Model*/
@@ -284,7 +286,7 @@
 	/*	float: right;*/
 	background-color: black;
 }
-
+ 
 .circle-p {
 	width: 50%;
 	float: left;
@@ -427,4 +429,49 @@ a#next:hover {
     border-radius: 2px;
     padding-left: 10px;
     margin:0 8px;
+}
+
+
+
+
+
+
+
+
+
+
+.overlay {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0%;
+	background: rgba(0,0,0,0.49);
+	transition: 2s;
+}
+.overlay:hover{
+	display: block;
+	opacity: 4;
+}
+
+.imgs-4>img:hover ~ .overlay {
+	display: block;
+	
+}
+
+.div-icon {
+	cursor: pointer;
+	color: white;
+	border-radius: 50%;
+	height: 110px;
+	width: 110px;
+	display: inline;
+	font-size: 2vw;
+	background: red;
+}
+
+.parent-icon {
+	width: 100%;
+	height: auto;
+
 }
