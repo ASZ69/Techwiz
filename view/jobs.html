@@ -91,20 +91,53 @@
 	<hr class="main-line">
 
 	<div class="spinner-p">
-
-		<h5 class="sp-label">Choose Category : </h5>
-
-		<select class="form-control spinner">
-			<option ng-repeat="item in spinnerArray">
-				<span>{{item}}</span>
-			</option>
-		</select>
-
-		<div class="tag-1">Android</div>
-		<div class="tag-2">React-Native</div>
-		<div class="tag-3">ASP.NET</div>
-		<div class="tag-4">IT - Professional</div>
-		<div class="tag-5">Software Engineering</div>
+		<div class="row">
+			<div class="col-md-5">
+				<div class="dis-flex">
+					<h5 class="sp-label">Choose Main Category : </h5>
+					<select class="form-control spinner" ng-model="mainCat">
+						<option ng-repeat="item in spinnerArray" ng-selected="{{item.mainCat == mainCat}}"  value="{{item.mainCat}}">
+							{{item.mainCat}}
+						</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="tags">
+					<h5 class="tag-heading">Tags: </h5>
+					<div class="tag-1">Banking</div>
+					<div class="tag-2">React-Native</div>
+					<div class="tag-3">ASP.NET</div>
+					<div class="tag-4">IT - Professional</div>
+					<div class="tag-5">Software Engineering</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="spinner-p">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="dis-flex">
+					<h5 class="sp-label">Choose Sub Category : </h5>
+					<select class="form-control spinner" ng-show="mainCat">
+						<option ng-repeat="subItem in getSubSpItems(mainCat)">
+							<span>{{subItem.name}}</span>
+						</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<div class="tags">
+					<h5 class="tag-heading">Tags: </h5>
+					<div class="tag-2">Python</div>
+					<div class="tag-5">Assistant Manager</div>
+					<div class="tag-1">Teacher</div>
+					<div class="tag-3">Content Writer</div>
+					<div class="tag-4">Assist. Director</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<br>
