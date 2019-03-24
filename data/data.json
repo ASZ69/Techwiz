@@ -175,64 +175,7 @@ data = [
 			  }
 		  ] 
 		 },
-		 {name : "Android Studio" , 
-		  data : [ 
-			  { companyTitle : "Aptech SFC",
-			   salMin : "95$", 
-			   salMax : "105$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["HTML5","HTML","CSS","JAVASCRIPT","CSS3"],
-			   location : "Karachi, Pakistan",
-			   vacancies : "21",
-			   exp : "2"
-			  },
-			  { companyTitle : "Aptech Metro",
-			   salMin : "85$", 
-			   salMax : "115$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["HTML","CSS","JAVASCRIPT"],
-			   location : "ISLAMBAD, Pakistan",
-			   vacancies : "12",
-			   exp : "2"
-			  },
-			  { companyTitle : "Text.com",
-			   salMin : "105$",
-			   salMax : "125$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["HTML5","CSS3","JAVASCRIPT"],
-			   location : "Lahore, Pakistan",
-			   vacancies : "70",
-			   exp : "5"
-			  },
-			  { companyTitle : "CodeFast.com",
-			   salMin : "145$",
-			   salMax : "190$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["HTML5","CSS3","JAVASCRIPT","CSS1","CSS2","HTML4","HTML2"],
-			   location : "ISLAMABAD, Pakistan",
-			   vacancies : "10",
-			   exp : "6"
-			  },
-			  { companyTitle : "NodeText",
-			   salMin : "55$",
-			   salMax : "65$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["JAVASCRIPT","HTML5","CSS3"],
-			   location : "Karachi, Pakistan",
-			   vacancies : "10",
-			   exp : "1"
-			  },
-			  { companyTitle : "Cooder",
-			   salMin : "45$",
-			   salMax : "60$",
-			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
-			   skills : ["HTML5","CSS3","JAVASCRIPT"],
-			   location : "Karachi, Pakistan",
-			   vacancies : "23",
-			   exp : "3"
-			  }
-		  ] 
-		 },
+		 
 		 {name : "Android Studio" ,
 		  data : [ 
 			  { companyTitle : "Aptech SFC",
@@ -470,7 +413,7 @@ data = [
 	
 	// Bank Categories start
 	
-	{mainCat : "Bank", 
+	{mainCat : "Banking", 
 	 subCats : [
 		 {name : "Manager" , 
 		  data : [ 
@@ -588,7 +531,7 @@ data = [
 			  }
 	 	  ] 
 		 },
-		 {name : "cashier" , 
+		 {name : "Cashier" , 
 		  data : [ 
 			  { companyTitle : "Aptech SFC",
 			   salMin : "205$", 
@@ -713,7 +656,7 @@ data = [
 			  }
 	 	  ] 
 		 },
-		 {name : "Profasar" , 
+		 {name : "Professor" , 
 		  data : [ 
 			  { companyTitle : "Aptech SFC",
 			   salMin : "295$", 
