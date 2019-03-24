@@ -10,6 +10,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	<!--angularjs-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    <!--angularjs end-->
+	
+	<script src="../js/jobs-controller.js"></script>
 	<script src="../js/common.js"></script>
 
 	<link rel="stylesheet" href="../css/jobs.css" />
@@ -17,7 +23,7 @@
 	<link rel="stylesheet" href="../css/about-panel.css" />
 </head>
 
-<body>
+<body ng-app="jobs" ng-controller="jobsController">
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
@@ -87,10 +93,10 @@
 		<h5 class="sp-label">Choose Category : </h5>
 
 		<select class="form-control spinner">
-			<option>Software Engeniring</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
+			<option ng-repeat="item in spinnerArray">
+				<span class="dis-none">{{item.id}}</span>
+				<span>{{item.name}}</span>
+			</option>
 		</select>
 
 		<div class="tag-1">Android</div>
@@ -126,7 +132,6 @@
 			</div>
 		</div>
 
-
 		<div class="jCard">
 			<div class="card-heading">
 				<h4 class="card-head center-xy text-white">IT-Manager</h4>
@@ -186,7 +191,7 @@
 				<button class="btn-view btn btn-light btn-block">View</button>
 			</div>
 		</div>
-
+			
 	</div>
 
 	<!--	about panel-->

@@ -106,7 +106,7 @@
 .cards-p {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 50px;
+	padding: 20px;
 }
 
 .jCard {
