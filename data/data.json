@@ -795,4 +795,164 @@ data = [
 		 },
 	 ]
 	},
+	
+	//teaching end
+	
+	//Hospitality Hotel Jobs
+	
+	{mainCat : "Hospitality Hotel Jobs", 
+	 subCats : [
+		 {name : "Hotel General Manager" , 
+		  data : [ 
+			  { companyTitle : "ShanwaiHotel",
+			   salMin : "295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Bachlor","Dealing"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "17",
+			   exp : "4"
+			  },
+			  { companyTitle : "Director - Front Office Operations",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "12",
+			   exp : "1"
+			  },
+			  { companyTitle : "Front Office Manager",
+			   salMin : "1505$",
+			   salMax : "1625$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","MA"],
+			   location : "Lahore, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+			  { companyTitle : "Guest Relations Manager",
+			   salMin : "8815$",
+			   salMax : "9010$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MA","BBA"],
+			   location : "ISLAMABAD, Pakistan",
+			   vacancies : "2",
+			   exp : "7"
+			  },
+			  { companyTitle : "Assistant Manager - Front Office",
+			   salMin : "6955$",
+			   salMax : "7065$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+	 	  ] 
+		 },
+	 ]
+	},
+	
+	//docotr cat start	
+	
+	{mainCat : "Doctor", 
+	 subCats : [
+		 {name : "Psychiatrist" , 
+		  data : [ 
+			  { companyTitle : "ShanwaiHotel",
+			   salMin : "1295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "17",
+			   exp : "4"
+			  },
+			  { companyTitle : "Specialty Doctor Older Adult Psychiatrist",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "12",
+			   exp : "1"
+			  },
+			  { companyTitle : "Front Office Manager",
+			   salMin : "1505$",
+			   salMax : "1625$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Lahore, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+			  { companyTitle : "Anaesthetics SPR",
+			   salMin : "8815$",
+			   salMax : "9010$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD","BiologyExpert"],
+			   location : "ISLAMABAD, Pakistan",
+			   vacancies : "2",
+			   exp : "7"
+			  },
+			  { companyTitle : "Emergency Medicine – SHO",
+			   salMin : "6955$",
+			   salMax : "7065$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+	 	  ] 
+		 },
+		 
+		 {name : "ENT Specialist" , 
+		  data : [ 
+			  { companyTitle : "ENT SPECIALIST",
+			   salMin : "1295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "15",
+			   exp : "6"
+			  },
+			  { companyTitle : "ENT Specialty Doctor Older Adult",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Lahour, Pakistan",
+			   vacancies : "5",
+			   exp : "6"
+			  },
+	 	  ] 
+		 },
+		 {name : "Specialist Doctors" , 
+		  data : [ 
+			  { companyTitle : "Heart SPECIALIST",
+			   salMin : "1295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "15",
+			   exp : "6"
+			  },
+			  { companyTitle : "Medical Specialist",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBBA","BSc","PHD"],
+			   location : "Lahour, Pakistan",
+			   vacancies : "5",
+			   exp : "6"
+			  },
+	 	  ] 
+		 },
+	 ]
+	},
+	
 ];
