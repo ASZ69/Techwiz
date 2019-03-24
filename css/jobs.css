@@ -1,5 +1,5 @@
 /* CSS Document */
-*{
+* {
 	box-sizing: border-box;
 	transition: 1s all;
 }
@@ -52,7 +52,11 @@
 	margin: 5px 10px;
 }
 
-.tag-1,.tag-2,.tag-3,.tag-4,.tag-5{
+.tag-1,
+.tag-2,
+.tag-3,
+.tag-4,
+.tag-5 {
 	padding: 8px 12px;
 	border-radius: 5px;
 	margin: 5px 2px;
@@ -60,7 +64,11 @@
 	color: white;
 }
 
-.tag-1:hover,.tag-2:hover,.tag-3:hover,.tag-4:hover,.tag-5:hover{
+.tag-1:hover,
+.tag-2:hover,
+.tag-3:hover,
+.tag-4:hover,
+.tag-5:hover {
 	cursor: pointer;
 	transform: scale(1.15);
 }
@@ -102,7 +110,7 @@
 }
 
 .jCard {
-	width : 300px;
+	width: 300px;
 	border-radius: 8px;
 	overflow: hidden;
 	margin: 12px;
@@ -118,7 +126,7 @@
 	width: 100%;
 	text-align: center;
 	line-height: 200px;
-	background-color: rgba(0,0,0,0.70);
+	background-color: rgba(0, 0, 0, 0.70);
 }
 
 .card-row {
@@ -128,7 +136,7 @@
 	padding: 5px 0px;
 }
 
-.jCard div{
+.jCard div {
 	color: white;
 	font-weight: bold;
 }

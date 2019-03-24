@@ -1,20 +1,9 @@
 /* CSS Document */
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .top-img {
 	height: auto;
@@ -27,38 +16,40 @@
 	top: 55%;
 	left: 7%;
 	color: white;
-	
+
 }
-.top-img-font>h1{
+
+.top-img-font>h1 {
 	font-size: 3.4vw;
 	font-weight: bolder;
 }
 
-.top-img-font>h3{
+.top-img-font>h3 {
 	font-size: 2.5vw;
 	font-weight: bolder;
 }
+
 /*Buttons*/
 .top-Button {
 	cursor: pointer;
-    background: red;
-    text-align: center;
-    border-radius: 3px;
-    padding: 1vw 3vw;
-    border: none;
-    text-decoration: none;
-    box-shadow: 0 8px 16px 0 var(--hover-color);
+	background: red;
+	text-align: center;
+	border-radius: 3px;
+	padding: 1vw 3vw;
+	border: none;
+	text-decoration: none;
+	box-shadow: 0 8px 16px 0 var(--hover-color);
 	font-weight: bold;
 }
 
-    .top-Button:hover {
-		color: white;
-        opacity: 0.8;
-        background-color:var(--hover-color);
-        text-decoration: none;
-		box-shadow:0 8px 16px 0 var(--bg-color);
-        
-    }
+.top-Button:hover {
+	color: white;
+	opacity: 0.8;
+	background-color: var(--hover-color);
+	text-decoration: none;
+	box-shadow: 0 8px 16px 0 var(--bg-color);
+
+}
 
 .padBtn {
 	margin-left: 12%;
@@ -68,7 +59,7 @@
 .mar-btn2 {
 	display: inline-block;
 	margin-left: 5%;
-	
+
 }
 
 .mar-btn1 {
@@ -82,86 +73,90 @@
 	text-align: center;
 }
 
-.sec-row-div>h3{
+.sec-row-div>h3 {
 	font-size: 1.2;
 	font-style: italic;
 	font-weight: bolder;
 }
 
-.sec-row-div>h1{
+.sec-row-div>h1 {
 	font-size: 3vw;
 	font-weight: bolder;
 }
 
-.sec-row-div>p{
+.sec-row-div>p {
 	font-size: 1.2vw;
 	font-weight: bold;
-	
+
 }
 
 
 
-.circle-sec-p{
-				display: flex;
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 390px;
-				background: rgba(0,0,0,0.83);
-			}
-			.circle-sec{
-				flex: 1;
-			}
+.circle-sec-p {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 390px;
+	background: rgba(0, 0, 0, 0.83);
+}
+
+.circle-sec {
+	flex: 1;
+}
+
 .outer-circle {
 	position: relative;
 	width: 15vw;
 	height: 15vw;
 	border-radius: 50%;
-    border:1vw solid #999999;	
+	border: 1vw solid #999999;
 }
 
 .circle-div {
-	height:auto;
+	height: auto;
 	padding-top: 20%;
 	width: 100%;
 }
 
-.circle-div >p{
-	text-align:center;
-	color:#FFF;
-	width:100%;
-	}
+.circle-div>p {
+	text-align: center;
+	color: #FFF;
+	width: 100%;
+}
 
 .inner-circle {
 	height: 12vw;
 	width: 12vw;
 	border-radius: 50%;
-    background-color: #333;
-/*	margin: 0.9vw;*/
+	background-color: #333;
+	/*	margin: 0.9vw;*/
 	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.inner-circle>div{
+.inner-circle>div {
 	position: absolute;
-    top: 50%;
+	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 }
-.round-text1{
+
+.round-text1 {
 	padding-top: 10%;
 	text-align: center;
 	font-size: 4vw;
 	font-weight: bolder;
 }
-.round-text2{
+
+.round-text2 {
 	width: 100%;
 	text-align: center;
 	font-size: 1.4vw;
-/*	margin-left: 23%;*/
+	/*	margin-left: 23%;*/
 	font-weight: bolder;
 }
 
@@ -170,26 +165,29 @@
 	width: 100%;
 	background: red;
 	height: auto;
-	
+
 }
 
 
 .w-font {
 	text-align: center;
 	width: 100%;
-	color:#CCC;
+	color: #CCC;
 }
-.imgs-4{
-	width:100%;
-	height:auto;
-	}
-.imgs-4:hover{
-	opacity:0.7;
-	cursor:pointer;
-	transition:1s;
-	}
+
+.imgs-4 {
+	width: 100%;
+	height: auto;
+}
+
+.imgs-4:hover {
+	opacity: 0.7;
+	cursor: pointer;
+	transition: 1s;
+}
+
 .mapG {
-    width: 100%;
+	width: 100%;
 
 }
 
@@ -198,9 +196,9 @@
 }
 
 .card-button {
-	background:rgba(0,0,0,1.00) ;
+	background: rgba(0, 0, 0, 1.00);
 	text-align: center;
-	color: rgba(184,0,3,1.00);
+	color: rgba(184, 0, 3, 1.00);
 	font-weight: bolder;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -217,19 +215,21 @@
 .card-font {
 	height: auto;
 }
-.card-font>h6{
+
+.card-font>h6 {
 	font-weight: bold;
 	font-size: 20px;
 	margin-top: 15px;
 	margin-left: 10px;
 }
-.card-font>p{
+
+.card-font>p {
 	margin-top: 10px;
 	margin-left: 10px;
 }
 
 .card-parent {
-	background:rgba(90,88,88,1.00);
+	background: rgba(90, 88, 88, 1.00);
 	height: auto;
 	color: whitesmoke;
 	overflow: hidden;
@@ -240,12 +240,14 @@
 .btn-div {
 	display: flex;
 }
-.btn-card-1{
-	flex: 1; 
+
+.btn-card-1 {
+	flex: 1;
 	margin-right: 2px;
 }
-.btn-card-2{
-	flex: 1; 
+
+.btn-card-2 {
+	flex: 1;
 	margin-left: 2px;
 }
 
@@ -255,28 +257,31 @@
 	margin-left: 20px;
 	font-weight: 500;
 }
+
 /*Model*/
-.red-heading{
-	font-size:1.2vw;
-	color:red;
-	}
-.heading{
-	font-size:2vw;
-	letter-spacing:1.2px;
-	font-weight:700;
-	}
-.para{
-	font-size:1.2vw;
-	letter-spacing:1px;
-	}
+.red-heading {
+	font-size: 1.2vw;
+	color: red;
+}
+
+.heading {
+	font-size: 2vw;
+	letter-spacing: 1.2px;
+	font-weight: 700;
+}
+
+.para {
+	font-size: 1.2vw;
+	letter-spacing: 1px;
+}
 
 
 .circle {
-	width:7.5vw;
-	height:7.5vw;
+	width: 7.5vw;
+	height: 7.5vw;
 	border-radius: 50%;
-	border: 3px solid rgba(45,44,44,1.00);
-/*	float: right;*/
+	border: 3px solid rgba(45, 44, 44, 1.00);
+	/*	float: right;*/
 	background-color: black;
 }
 
@@ -300,112 +305,117 @@
 }
 
 .text-box-para {
-	font-size: 0.8vw;	
+	font-size: 0.8vw;
 }
 
 .icons {
-	margin-top: 30%;	
+	margin-top: 30%;
 	color: white;
 	font-size: 2.5vw;
 }
+
 /*Crousal*/
 
 #carousel {
-position: relative;
-width:60%;
-margin:0 auto;
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
 }
 
 #slides {
-overflow: hidden;
-position: relative;
-width: 100%;
-height: 250px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 250px;
 }
 
 #slides ul {
-list-style: none;
-width:100%;
-height:250px;
-margin: 0;
-padding: 0;
-position: relative;
+	list-style: none;
+	width: 100%;
+	height: 250px;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 
- #slides li {
-width:100%;
-height:250px;
-float:left;
-text-align: center;
-position: relative;
-font-family:lato, sans-serif;
+#slides li {
+	width: 100%;
+	height: 250px;
+	float: left;
+	text-align: center;
+	position: relative;
+	font-family: lato, sans-serif;
 }
+
 /* Styling for prev and next buttons */
-.btn-bar{
-    max-width: 346px;
-    margin: 0 auto;
-    display: block;
-    position: relative;
-    top: 40px;
-    width: 100%;
+.btn-bar {
+	max-width: 346px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	top: 40px;
+	width: 100%;
 }
 
- #buttons {
-padding:0 0 5px 0;
-float:right;
+#buttons {
+	padding: 0 0 5px 0;
+	float: right;
 }
 
 #buttons a {
-text-align:center;
-display:block;
-font-size:50px;
-float:left;
-outline:0;
-margin:0 60px;
-color:#b14943;
-text-decoration:none;
-display:block;
-padding:9px;
-width:35px;
+	text-align: center;
+	display: block;
+	font-size: 50px;
+	float: left;
+	outline: 0;
+	margin: 0 60px;
+	color: #b14943;
+	text-decoration: none;
+	display: block;
+	padding: 9px;
+	width: 35px;
 }
 
-a#prev:hover, a#next:hover {
-color:#FFF;
-text-shadow:.5px 0px #b14943;  
+a#prev:hover,
+a#next:hover {
+	color: #FFF;
+	text-shadow: .5px 0px #b14943;
 }
 
-.quote-phrase, .quote-author {
-font-family:sans-serif;
-font-weight:300;
-display: table-cell;
-vertical-align: middle;
-padding: 5px 20px;
-font-family:'Lato', Calibri, Arial, sans-serif;
+.quote-phrase,
+.quote-author {
+	font-family: sans-serif;
+	font-weight: 300;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 5px 20px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
 .quote-phrase {
-height: 200px;
-font-size:24px;
-/*color:#FFF;*/
-font-style:italic;
-text-shadow:.5px 0px #b14943;  
+	height: 200px;
+	font-size: 24px;
+	/*color:#FFF;*/
+	font-style: italic;
+	text-shadow: .5px 0px #b14943;
 }
 
 .quote-marks {
-font-size:30px;
-padding:0 3px 3px;
-position:inherit;
+	font-size: 30px;
+	padding: 0 3px 3px;
+	position: inherit;
 }
 
 .quote-author {
-font-style:normal;
-font-size:20px;
-color:#b14943;
-font-weight:400;
-height: 30px;
+	font-style: normal;
+	font-size: 20px;
+	color: #b14943;
+	font-weight: 400;
+	height: 30px;
 }
 
-.quoteContainer, .authorContainer {
-display: table;
-width: 100%;
+.quoteContainer,
+.authorContainer {
+	display: table;
+	width: 100%;
 }
