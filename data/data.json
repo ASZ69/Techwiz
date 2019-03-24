@@ -468,9 +468,9 @@ data = [
 	 ]
 	},
 	
-	// business Categories start
+	// Bank Categories start
 	
-	{mainCat : "Business", 
+	{mainCat : "Bank", 
 	 subCats : [
 		 {name : "Manager" , 
 		  data : [ 
@@ -644,6 +644,153 @@ data = [
 			   vacancies : "2",
 			   exp : "5"
 			  }
+	 	  ] 
+		 },
+	 ]
+	},
+	
+	// Bank end
+	
+	// Teaching start
+	
+	{mainCat : "Teaching", 
+	 subCats : [
+		 {name : "Director" , 
+		  data : [ 
+			  { companyTitle : "Aptech SFC",
+			   salMin : "295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","teachingExp"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "7",
+			   exp : "15"
+			  },
+			  { companyTitle : "Mobile-Mobi",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","Enter","MA"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "12",
+			   exp : "1"
+			  },
+			  { companyTitle : "TextCom",
+			   salMin : "1505$",
+			   salMax : "1625$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","teachingExp"],
+			   location : "Lahore, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+			  { companyTitle : "MicroSoft",
+			   salMin : "88145$",
+			   salMax : "90190$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBA","BBA","MA","Enter"],
+			   location : "ISLAMABAD, Pakistan",
+			   vacancies : "2",
+			   exp : "7"
+			  },
+			  { companyTitle : "NodeText",
+			   salMin : "6955$",
+			   salMax : "7065$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","teachingExp"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+			  { companyTitle : "Cooder",
+			   salMin : "5245$",
+			   salMax : "6340$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBA","BBA","PH,D"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "2",
+			   exp : "5"
+			  }
+	 	  ] 
+		 },
+		 {name : "Profasar" , 
+		  data : [ 
+			  { companyTitle : "Aptech SFC",
+			   salMin : "295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","PHD","Enginner"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "7",
+			   exp : "15"
+			  },
+			  { companyTitle : "Mobile-Mobi",
+			   salMin : "3085$", 
+			   salMax : "3560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","Enter","MA","PHD"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "12",
+			   exp : "1"
+			  },
+			  { companyTitle : "TextCom",
+			   salMin : "1505$",
+			   salMax : "1625$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Master","Bachlor","PHD","Enginner"],
+			   location : "Lahore, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+			  { companyTitle : "MicroSoft",
+			   salMin : "88145$",
+			   salMax : "90190$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["MBA","BBA","MA","Enter"],
+			   location : "ISLAMABAD, Pakistan",
+			   vacancies : "2",
+			   exp : "7"
+			  },
+			  { companyTitle : "NodeText",
+			   salMin : "6955$",
+			   salMax : "7065$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["PHD","MA","MSC","MBA"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "1",
+			   exp : "5"
+			  },
+	 	  ] 
+		 },
+		 {name : "SchoolTeacher" , 
+		  data : [ 
+			  { companyTitle : "Aptech SFC",
+			   salMin : "295$", 
+			   salMax : "2505$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Matric","Enter","Bachlor","MA"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "27",
+			   exp : "1"
+			  },
+			  { companyTitle : "Mobile-Mobi",
+			   salMin : "85$", 
+			   salMax : "560$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Matric","Enter","Bachlor","MA"],
+			   location : "Karachi, Pakistan",
+			   vacancies : "15",
+			   exp : "2"
+			  },
+			  { companyTitle : "TextCom",
+			   salMin : "1505$",
+			   salMax : "1625$",
+			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
+			   skills : ["Matric","Enter","Bachlor","MA"],
+			   location : "Lahore, Pakistan",
+			   vacancies : "2",
+			   exp : "5"
+			  },
 	 	  ] 
 		 },
 	 ]
