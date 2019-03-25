@@ -136,8 +136,8 @@
 .card-row {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
-	padding: 5px 0px;
+	justify-content: space-between;
+	padding: 5px 15px;
 	font-size: 14px;
 }
 

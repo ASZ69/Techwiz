@@ -88,5 +88,10 @@ jobs.controller("jobsController", function ($scope, $filter) {
 	$scope.showCards = function(mainCat,subCat){
 		
 	}
+	
+	$scope.colors = function(i){
+		var colors = ["red","blue","orange","yellow","hotpink","skyblue","orangered","green","white"];
+		return colors[i];
+	}
 
 });
