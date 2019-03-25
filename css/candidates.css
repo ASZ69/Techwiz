@@ -1,0 +1,70 @@
+.key-1:hover,
+.key-2:hover,
+.key-3:hover,
+.key-4:hover,
+.key-5:hover,
+.key-6:hover,
+.key-7:hover
+
+{
+	cursor: pointer;
+	transform: scale(1.15);
+}
+
+.key-head {
+	padding: 12px 0px;
+	font-size: 2vw;
+	text-align: center;
+	font-weight: bold;
+}
+
+.key-w {
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.key-1,
+.key-2,
+.key-3,
+.key-4,
+.key-5,
+.key-6,
+.key-7
+ {
+	padding: 8px 12px;
+	border-radius: 5px;
+	margin: 5px 2px;
+	text-align: center;
+	color: white;
+	 font-size: 1.4vw;
+	 font-weight: bold;
+}
+
+
+.key-1 {
+	background-color: #D71518;
+}
+
+.key-2 {
+	background-color: #152BD7;
+}
+
+.key-3 {
+	background-color: #29D715;
+}
+
+.key-4 {
+	background-color: #D71599;
+}
+
+.key-5 {
+	background-color: #FF8E00;
+}
+
+.key-6 {
+	background-color: #D71599;
+}
+.key-7{
+ background-color: #152BD7;	
+}

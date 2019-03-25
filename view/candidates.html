@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	<!--angularjs-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
+    <!--angularjs end-->
+	
+	<script type="text/javascript" src="../data/data.json"></script>
+	<script src="../js/data.js"></script>
+	<script src="../js/jobs-controller.js"></script>
+	<script src="../js/common.js"></script>
+
+	<link rel="stylesheet" href="../css/jobs.css" />
+	<link rel="stylesheet" href="../css/candidates.css" />
+	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/about-panel.css" />
+</head>
+
+<body ng-app="jobs" ng-controller="jobsController">
+
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
+
+		<a class="navbar-brand" href="#">
+			<img src="../images/logo-red.png" class="nav-logo" alt="LOGO"> Job Portals
+		</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+
+				<li class="nav-item dropdown textFontsize mr-5">
+					<a href="../index.html" class="nav-link">Home</a>
+				</li>
+
+				<li class="nav-item dropdown textFontsize mr-5">
+					<a href="#" class="nav-link">Jobs</a>
+				</li>
+
+				<li class="nav-item dropdown textFontsize mr-5">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">Job List</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Day</a>
+						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Day (Colored)</a>
+						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Night</a>
+						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Night (Colored)</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown textFontsize mr-5">
+					<a href="view/about.html" class="nav-link">Contact Us</a>
+				</li>
+
+				<li class="nav-item dropdown textFontsize mr-5">
+					<a href="view/about.html" class="nav-link">About Us</a>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<div class="top-img">
+		<img src="../images/crousal/slide1.jpg" alt="img" width="100%" height="400px">
+		<h1 class="text-white center-xy heading">Find Employee</h1>
+	</div>
+
+	<div class="top-main">
+		<h3 class="text-center">Search Require Candidate</h3>
+		<br>
+		<center>
+			<div class="search">
+				<input type="text" class="form-control mb-2 mr-sm-2 search-box" placeholder="Search Jobs..." ng-model="search">
+				<button type="submit" class="btn btn-primary mb-2 btn-search">Search</button>
+			</div>
+		</center>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+		    <div class="col-md-2">
+				<h5 class="key-head">Keywords :</h5>
+			</div>
+			<div class="col-md-10">
+				<div class="key-w">
+		
+					<div class="key-1">Manager</div>
+					<div class="key-2">Banking</div>
+					<div class="key-3">React-Native</div>
+					<div class="key-4">ASP.NET</div>
+					<div class="key-5">IT - Professional</div>
+					<div class="key-6">Software Engineering</div>
+					<div class="key-7">Medical</div>
+				</div>
+			
+			</div>
+		</div>
+		
+		<!--card view-->
+		
+	<div class="cards-p">
+
+		<div class="jCard" ng-repeat="card in getCards(mainCat,subCat) | filter:search">
+			<div class="card-heading">
+				<h4 class="card-head center-xy text-white">{{card.companyTitle}}</h4>
+				<img src="../images/products/cards/{{getRandomNo(1,10)}}.jpg" width="100%" height="100%" alt="img" />
+			</div>
+			<div class="card-detail">
+				<h5 style="display: inline">Name :</h5><h4  style="display: inline"> Shafqat Ali</h4>
+				<br>
+				<div class="card-row">
+					<div><span class="fa fa-envelope-square"></span> {{subCat}}</div>
+					<div><span class="fa fa-dollar"></span> {{card.salMin}} - {{card.salMax}}</div>
+				</div>
+				<div class="card-row">
+					<div><span class="fa fa-suitcase"></span> {{card.vacancies}} Vacancies</div>
+					<div><span class="fa fa-clock-o"></span> {{card.exp}}Y Experience</div>
+				</div>
+				<br>
+<!--				<button class="btn-view btn btn-light btn-block">View</button>-->
+			</div>
+		</div>
+	</div>
+		
+		
+	</div>
+	
+</body>
+</html>
