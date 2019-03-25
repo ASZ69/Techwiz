@@ -95,7 +95,7 @@
 			<div class="col-md-5">
 				<div class="dis-flex">
 					<h5 class="sp-label">Choose Main Category : </h5>
-					<select class="form-control spinner" ng-model="mainCat">
+					<select class="form-control spinner" ng-model="mainCat" ng-change="mainSpChange()">
 						<option ng-repeat="item in spinnerArray" ng-selected="{{item.mainCat == mainCat}}"  value="{{item.mainCat}}">
 							{{item.mainCat}}
 						</option>
@@ -105,11 +105,11 @@
 			<div class="col-md-7">
 				<div class="tags">
 					<h5 class="tag-heading mr-2">Tags: </h5>
-					<div class="tag-1">Banking</div>
-					<div class="tag-2">React-Native</div>
-					<div class="tag-3">ASP.NET</div>
-					<div class="tag-4">IT - Professional</div>
-					<div class="tag-5">Software Engineering</div>
+					<div class="tag-1" ng-click="setCatsData('Banking','Manager')">Banking</div>
+					<div class="tag-2" ng-click="setCatsData('Computer Programming','React Native')">React-Native</div>
+					<div class="tag-3" ng-click="setCatsData('Computer Programming','JavaScript')">JavaScript</div>
+					<div class="tag-4" ng-click="setCatsData('Computer Programming','Android Studio')">Android Studio</div>
+					<div class="tag-5" ng-click="setCatsData('Banking','AssistanceManager')">Bank Assistant Manager</div>
 				</div>
 			</div>
 		</div>
@@ -120,8 +120,8 @@
 			<div class="col-md-5">
 				<div class="dis-flex">
 					<h5 class="sp-label">Choose Sub Category : </h5>
-					<select class="form-control spinner" ng-show="mainCat" ng-model="subCat" ng-selected="{{subItem.name == subCat}}">
-						<option ng-repeat="subItem in getSubSpItems(mainCat)" ng-selected="{{subItem.name == subCat}}" value="{{subItem.name}}">
+					<select class="form-control spinner" ng-show="mainCat" ng-model="subCat">
+						<option ng-repeat="subItem in subSpinnerItems" ng-selected="{{subItem.name == subCat}}" value="{{subItem.name}}">
 							{{subItem.name}}
 						</option>
 					</select>
@@ -130,11 +130,11 @@
 			<div class="col-md-7">
 				<div class="tags">
 					<h5 class="tag-heading mr-2">Tags: </h5>
-					<div class="tag-2">Python</div>
-					<div class="tag-5">Assistant Manager</div>
-					<div class="tag-1">Teacher</div>
-					<div class="tag-3">Content Writer</div>
-					<div class="tag-4">Assist. Director</div>
+					<div class="tag-2" ng-click="setCatsData('Computer Programming','IOS Developer')">IOS Developer</div>
+					<div class="tag-5" ng-click="setCatsData('Teaching','Professor')">Professor</div>
+					<div class="tag-1" ng-click="setCatsData('Teaching','Director')">Director</div>
+					<div class="tag-3" ng-click="setCatsData('Computer Programming','WebSiteDeveloper')">Website Developer</div>
+					<div class="tag-4" ng-click="setCatsData('Doctor','ENT Specialist')">ENT Specialist</div>
 				</div>
 			</div>
 		</div>

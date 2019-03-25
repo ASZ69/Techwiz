@@ -68,14 +68,12 @@ jobs.controller("jobsController", function ($scope, $filter) {
 	$scope.mainCat = dataList[0].mainCat;
 	$scope.subCat = dataList[0].subCats[0].name;
 	
-	$scope.getSubSpItems = function(selectedMain){
-		var filteredSubSpinner = $filter('filter')(dataList, { mainCat: selectedMain });
-		return filteredSubSpinner[0].subCats;
+	$scope.mainSpChange = function(){
+		$scope.subSpinnerItems = $filter('filter')(dataList, { mainCat: $scope.mainCat })[0].subCats;
+		$scope.subCat = $scope.subSpinnerItems[0].name;
 	}
 	
-	$scope.getRandomNo = function(min,max){
-		return Math.floor(Math.random() * (max - min + 1)) + min;
-	}
+	$scope.subSpinnerItems = $filter('filter')(dataList, { mainCat: $scope.mainCat })[0].subCats;
 	
 	$scope.getCards = function(mainCat,subCat){
 		var filteredSubData = $filter('filter')(dataList, { mainCat: mainCat });
@@ -85,13 +83,19 @@ jobs.controller("jobsController", function ($scope, $filter) {
 		return cards[0].data;
 	}
 	
-	$scope.showCards = function(mainCat,subCat){
-		
+	$scope.getRandomNo = function(min,max){
+		return Math.floor(Math.random() * (max - min + 1)) + min;
 	}
 	
 	$scope.colors = function(i){
 		var colors = ["red","blue","orange","yellow","hotpink","skyblue","orangered","green","white"];
 		return colors[i];
+	}
+	
+	$scope.setCatsData = function(mainCat,subCat){
+		$scope.mainCat = mainCat;
+		$scope.mainSpChange();
+		$scope.subCat = subCat;
 	}
 
 });
