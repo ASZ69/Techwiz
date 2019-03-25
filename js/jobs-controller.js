@@ -84,9 +84,9 @@ jobs.controller("jobsController", function ($scope, $filter) {
 		var cards = $filter('filter')(data, { name: subCat });
 		return cards[0].data;
 	}
+	
+	$scope.showCards = function(mainCat,subCat){
+		
+	}
 
 });
-
-//function getRandomNo(min,max){
-//	return Math.floor(Math.random() * (max - min + 1)) + min;
-//}

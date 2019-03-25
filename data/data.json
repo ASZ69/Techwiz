@@ -61,7 +61,7 @@ data = [
 		 },
 		 {name : "HTML & CSS" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "NadraPakistan",
 			   salMin : "25$", 
 			   salMax : "55$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -70,7 +70,7 @@ data = [
 			   vacancies : "31",
 			   exp : "6"
 			  },
-			  { companyTitle : "Aptech Metro",
+			  { companyTitle : "HabibMetro",
 			   salMin : "50$", 
 			   salMax : "70$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -79,7 +79,7 @@ data = [
 			   vacancies : "20",
 			   exp : "5"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "ApTech SFC",
 			   salMin : "15$",
 			   salMax : "50$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -88,7 +88,7 @@ data = [
 			   vacancies : "30",
 			   exp : "1.5"
 			  },
-			  { companyTitle : "CodeFast.com",
+			  { companyTitle : "Times.PK",
 			   salMin : "85$",
 			   salMax : "100$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -97,7 +97,7 @@ data = [
 			   vacancies : "69",
 			   exp : "9"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "UBL",
 			   salMin : "55$",
 			   salMax : "65$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -106,7 +106,7 @@ data = [
 			   vacancies : "10",
 			   exp : "10"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "J.com",
 			   salMin : "24$",
 			   salMax : "500$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -119,7 +119,7 @@ data = [
 		 },
 		 {name : "JavaScript",
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Foodies.com",
 			   salMin : "95$", 
 			   salMax : "105$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -137,7 +137,7 @@ data = [
 			   vacancies : "120",
 			   exp : "10"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "Emasti.pk",
 			   salMin : "69$",
 			   salMax : "125$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -146,7 +146,7 @@ data = [
 			   vacancies : "70",
 			   exp : "5"
 			  },
-			  { companyTitle : "CodeFast.com",
+			  { companyTitle : "CodeTime.com",
 			   salMin : "145$",
 			   salMax : "190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -155,7 +155,7 @@ data = [
 			   vacancies : "42",
 			   exp : "4"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "AmericanTimes",
 			   salMin : "55$",
 			   salMax : "65$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -164,7 +164,7 @@ data = [
 			   vacancies : "10",
 			   exp : "1"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "CooderCode",
 			   salMin : "245$",
 			   salMax : "340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -187,7 +187,7 @@ data = [
 			   vacancies : "12",
 			   exp : "4"
 			  },
-			  { companyTitle : "Aptech Metro",
+			  { companyTitle : "TimeMedico",
 			   salMin : "385$", 
 			   salMax : "415$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -196,7 +196,7 @@ data = [
 			   vacancies : "5",
 			   exp : "3"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "OrcalCoder",
 			   salMin : "105$",
 			   salMax : "125$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -205,7 +205,7 @@ data = [
 			   vacancies : "7",
 			   exp : "8"
 			  },
-			  { companyTitle : "CodeFast.com",
+			  { companyTitle : "NortonEast",
 			   salMin : "505$",
 			   salMax : "690$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -223,7 +223,7 @@ data = [
 			   vacancies : "10",
 			   exp : "5"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "blueText.com",
 			   salMin : "245$",
 			   salMax : "340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -236,7 +236,7 @@ data = [
 		 },
 		 {name : "Adobe" ,
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "FilmViewer",
 			   salMin : "95$", 
 			   salMax : "115$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -245,7 +245,7 @@ data = [
 			   vacancies : "56",
 			   exp : "3"
 			  },
-			  { companyTitle : "Aptech Metro",
+			  { companyTitle : "HollyWoodFilm.com",
 			   salMin : "385$", 
 			   salMax : "415$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -254,7 +254,7 @@ data = [
 			   vacancies : "20",
 			   exp : "4"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "Legand.com",
 			   salMin : "5$",
 			   salMax : "25$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -294,7 +294,7 @@ data = [
 		 },
 		 {name : "WebSiteDeveloper" ,
 		  data : [ 
-			  {companyTitle : "Aptech SFC",
+			  {companyTitle : "Googlework.pk",
 			   salMin : "195$", 
 			   salMax : "115$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -312,7 +312,7 @@ data = [
 			   vacancies : "20",
 			   exp : "4"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "Karachi University",
 			   salMin : "95$",
 			   salMax : "125$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -321,7 +321,7 @@ data = [
 			   vacancies : "9",
 			   exp : "2"
 			  },
-			  { companyTitle : "CodeFast.com",
+			  { companyTitle : "ApTech SFC",
 			   salMin : "350$",
 			   salMax : "469$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -330,7 +330,7 @@ data = [
 			   vacancies : "85",
 			   exp : "3"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "Golootlo.com",
 			   salMin : "255$",
 			   salMax : "295$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -352,7 +352,7 @@ data = [
 		 },
 		 {name : "IOS Developer" ,
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "MicroIOS.com",
 			   salMin : "995$", 
 			   salMax : "1115$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -361,7 +361,7 @@ data = [
 			   vacancies : "96",
 			   exp : "5"
 			  },
-			  { companyTitle : "Aptech Metro",
+			  { companyTitle : "NickIOS Develop",
 			   salMin : "885$", 
 			   salMax : "1215$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -370,7 +370,7 @@ data = [
 			   vacancies : "20",
 			   exp : "4"
 			  },
-			  { companyTitle : "Text.com",
+			  { companyTitle : "Dell.com",
 			   salMin : "995$",
 			   salMax : "2125$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -379,7 +379,7 @@ data = [
 			   vacancies : "8",
 			   exp : "3"
 			  },
-			  { companyTitle : "CodeFast.com",
+			  { companyTitle : "ApTech SFc",
 			   salMin : "650$",
 			   salMax : "969$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -397,7 +397,7 @@ data = [
 			   vacancies : "30",
 			   exp : "6"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "CoodFast.pk",
 			   salMin : "924$",
 			   salMax : "134$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -417,7 +417,7 @@ data = [
 	 subCats : [
 		 {name : "Manager" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Bank ul Habib",
 			   salMin : "2295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -426,7 +426,7 @@ data = [
 			   vacancies : "2",
 			   exp : "6"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "Habib Bank",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -435,7 +435,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "UBL Bank",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -444,7 +444,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "MicroSoft",
+			  { companyTitle : "Faisal Bank",
 			   salMin : "88145$",
 			   salMax : "90190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -453,7 +453,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "NationBankOfPakistan",
 			   salMin : "6955$",
 			   salMax : "7065$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -462,7 +462,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "Woman Bank",
 			   salMin : "5245$",
 			   salMax : "6340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -484,7 +484,7 @@ data = [
 			   vacancies : "2",
 			   exp : "6"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "Sindh Bank",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -493,7 +493,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "Ftc Bank",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -502,7 +502,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "MicroSoft",
+			  { companyTitle : "Dobai Bank",
 			   salMin : "8145$",
 			   salMax : "9190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -511,7 +511,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "Shah Latif Bank",
 			   salMin : "655$",
 			   salMax : "765$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -520,7 +520,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "Meezan Bank",
 			   salMin : "5245$",
 			   salMax : "6340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -533,7 +533,7 @@ data = [
 		 },
 		 {name : "Cashier" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Allahabad Bank",
 			   salMin : "205$", 
 			   salMax : "505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -542,7 +542,7 @@ data = [
 			   vacancies : "2",
 			   exp : "6"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "Askari Bank Ltd",
 			   salMin : "85$", 
 			   salMax : "560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -551,7 +551,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "MCB Islamic Bank",
 			   salMin : "505$",
 			   salMax : "625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -560,7 +560,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "MicroSoft",
+			  { companyTitle : "Bankislamic Bank",
 			   salMin : "145$",
 			   salMax : "190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -569,7 +569,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "AL Baraka  Bank",
 			   salMin : "55$",
 			   salMax : "65$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -578,7 +578,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "Allied Bank Ltd",
 			   salMin : "245$",
 			   salMax : "340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -600,7 +600,7 @@ data = [
 	 subCats : [
 		 {name : "Director" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Gove Bawani College",
 			   salMin : "295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -609,7 +609,7 @@ data = [
 			   vacancies : "7",
 			   exp : "15"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "Gove Boys College",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -618,7 +618,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "Gove Girls College",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -627,7 +627,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "MicroSoft",
+			  { companyTitle : "Grammar  College",
 			   salMin : "88145$",
 			   salMax : "90190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -636,7 +636,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "Al-Haq Girls College",
 			   salMin : "6955$",
 			   salMax : "7065$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -645,7 +645,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "Cooder",
+			  { companyTitle : "DHA College Women",
 			   salMin : "5245$",
 			   salMax : "6340$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 16 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -658,7 +658,7 @@ data = [
 		 },
 		 {name : "Professor" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Metropolis College",
 			   salMin : "295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -667,7 +667,7 @@ data = [
 			   vacancies : "7",
 			   exp : "15"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "DHA Suffa University",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -676,7 +676,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "University of Karachi",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -685,7 +685,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "MicroSoft",
+			  { companyTitle : "Hamdard University",
 			   salMin : "88145$",
 			   salMax : "90190$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -694,7 +694,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "NodeText",
+			  { companyTitle : "Virtual University",
 			   salMin : "6955$",
 			   salMax : "7065$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -707,7 +707,7 @@ data = [
 		 },
 		 {name : "SchoolTeacher" , 
 		  data : [ 
-			  { companyTitle : "Aptech SFC",
+			  { companyTitle : "Co-Education Schools",
 			   salMin : "295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -716,7 +716,7 @@ data = [
 			   vacancies : "27",
 			   exp : "1"
 			  },
-			  { companyTitle : "Mobile-Mobi",
+			  { companyTitle : "Welfare Schools",
 			   salMin : "85$", 
 			   salMax : "560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -725,7 +725,7 @@ data = [
 			   vacancies : "15",
 			   exp : "2"
 			  },
-			  { companyTitle : "TextCom",
+			  { companyTitle : "NGO institutions",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -743,11 +743,11 @@ data = [
 	
 	//Hospitality Hotel Jobs
 	
-	{mainCat : "Hospitality Hotel Jobs", 
+	{mainCat : "Hospitality Jobs", 
 	 subCats : [
 		 {name : "Hotel General Manager" , 
 		  data : [ 
-			  { companyTitle : "ShanwaiHotel",
+			  { companyTitle : "ShanwariHotel",
 			   salMin : "295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -756,7 +756,7 @@ data = [
 			   vacancies : "17",
 			   exp : "4"
 			  },
-			  { companyTitle : "Director - Front Office Operations",
+			  { companyTitle : "Director Operations",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -774,7 +774,7 @@ data = [
 			   vacancies : "1",
 			   exp : "5"
 			  },
-			  { companyTitle : "Guest Relations Manager",
+			  { companyTitle : "Relations Manager",
 			   salMin : "8815$",
 			   salMax : "9010$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 15 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -783,7 +783,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "Assistant Manager - Front Office",
+			  { companyTitle : "Assistant Manager",
 			   salMin : "6955$",
 			   salMax : "7065$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -803,7 +803,7 @@ data = [
 	 subCats : [
 		 {name : "Psychiatrist" , 
 		  data : [ 
-			  { companyTitle : "ShanwaiHotel",
+			  { companyTitle : "Jinnah Hospital",
 			   salMin : "1295$", 
 			   salMax : "2505$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -812,7 +812,7 @@ data = [
 			   vacancies : "17",
 			   exp : "4"
 			  },
-			  { companyTitle : "Specialty Doctor Older Adult Psychiatrist",
+			  { companyTitle : "Specialty Psychiatrist",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -821,7 +821,7 @@ data = [
 			   vacancies : "12",
 			   exp : "1"
 			  },
-			  { companyTitle : "Front Office Manager",
+			  { companyTitle : "Office Manager",
 			   salMin : "1505$",
 			   salMax : "1625$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -839,7 +839,7 @@ data = [
 			   vacancies : "2",
 			   exp : "7"
 			  },
-			  { companyTitle : "Emergency Medicine – SHO",
+			  { companyTitle : "Emergency Medicine SHO",
 			   salMin : "6955$",
 			   salMax : "7065$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
@@ -862,7 +862,7 @@ data = [
 			   vacancies : "15",
 			   exp : "6"
 			  },
-			  { companyTitle : "ENT Specialty Doctor Older Adult",
+			  { companyTitle : "ENT Specialty Doctor",
 			   salMin : "3085$", 
 			   salMax : "3560$",
 			   discription : "We provide best opurtunities for talented developers in out company. You have to work 8 hours a day. Saturday & Sunday will be holiday. You must have aptech ACCP-EE Diploma for job.",
