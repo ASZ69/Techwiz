@@ -10,6 +10,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="js/common.js"></script>
+	
+	<!--Crousal-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.	3.3/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+	<!--Crousal-->
 
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/common.css" />
@@ -70,6 +81,13 @@
         </div>
     </nav>
 
+	<div style="position: fixed;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;">
+	<img src="images/index/office.jpg" alt="img" width="100%" height="100%;">
+</div>
+	
     <div class="content">
 
         <div class="top-img">
@@ -106,28 +124,28 @@
             <div class="row">
                 <div class="col-md-3 padDel">
                     <div class="imgs-4">
-                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                        <img src="images/index/doctors.jpg" alt="img" width="100%" height="300px">
                     </div>
                 </div>
 
 
                 <div class="col-md-3 padDel">
                     <div class="imgs-4">
-                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                        <img src="images/index/card-img-it.jpg" alt="img" width="100%" height="300px">
                     </div>
                 </div>
 
 
                 <div class="col-md-3 padDel">
                     <div class="imgs-4">
-                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                        <img src="images/index/office3.jpg" alt="img" width="100%" height="300px">
                     </div>
                 </div>
 
 
                 <div class="col-md-3 padDel">
                     <div class="imgs-4">
-                        <img src="images/crousal/slide2.jpg" alt="img" width="100%" height="400px">
+                        <img src="images/index/teacher.jpg" alt="img" width="100%" height="300px">
                     </div>
                 </div>
 
@@ -221,14 +239,15 @@
         </div>
 
         <!--4th Row end-->
-        <div style="width: 100%; text-align: center;">
-            <h1> Feature Job </h1>
+        <div style="width: 100%; text-align: center; background: rgba(255,249,249,1.00);" >
+            <h1 style="margin-bottom: 0px;"> Feature Job </h1>
         </div>
 
         <!--5th row Start-->
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
+            
+			<div class="row bg-light">
+                <div class="col-md-3 ">
                     <div class="card-parent">
                         <div class="card-img">
                             <img src="images/index/card-img-it.jpg" alt="img" width="100%" height="auto">
@@ -323,12 +342,12 @@
 
 
             </div>
-        </div><br>
+        </div>
         <!--5th row End-->
         <!--6th row Start-->
 
         <div class="container-fluid">
-            <div class="row">
+            <div class="row bg-light">
                 <div class="col-md-5"><br>
                     <br>
                     <br>
@@ -418,65 +437,105 @@
         <!--6th row end-->
         <!--7th row start-->
 
-        <div id="carousel">
-            <div class="btn-bar">
-                <div id="buttons"><a id="prev" href="#">
-                        <</a> <a id="next" href="#">>
-                    </a> </div>
-            </div>
-            <div id="slides">
-                <ul>
-                    <li class="slide">
-                        <div class="quoteContainer">
-                            <p class="quote-phrase"><span class="quote-marks">"</span> I was literally BLOWN AWAY by
-                                Company A's work! They went above and beyond all of our expectations with design,
-                                usability. and branding, I will reccommend them to everyone I know!<class="quote-marks">
-                                    "</span>
-
-                            </p>
+	<h4 style="font-weight: bolder;text-align: center;color:red;padding-top: 10px; font-size: 2vw;	">Here Some</h4>
+	<h1 style="font-weight: bolder;text-align: center;color: white;font-size: 4.5vw;font-style: italic; font-stretch: expanded"><span class="fa fa-quote-left" style="font-size:2vw;line-height: 3em;color: red"></span>Testimonials<span class="fa fa-quote-right" style="font-size:2vw;line-height: 3em;color: red;"></span></h1>
+    <div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel" >
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. 
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/3.jpg" alt="img"></div>
+                            <h3 class="title">williamson</h3>
+                            <span class="post">Web Designer</span>
                         </div>
-                        <div class="authorContainer">
-                            <p class="quote-author">John Doe // Local Business Owner</p>
+                    </div>
+                    <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. 
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/images.jpg" alt=""></div>
+                            <h3 class="title">Kristina</h3>
+                            <span class="post">Hotel Manager</span>
                         </div>
-                    </li>
-                    <li class="slide">
-                        <div class="quoteContainer">
-                            <p class="quote-phrase"><span class="quote-marks">"</span>
-                                I could not stop staring! Company A's Web Solutions are by far the most elegant
-                                solutions, you can't beat their quality and attention to detail!
-                                <span class="quote-marks">"</span>
-
-                            </p>
+                    </div>
+                    <div class="testimonial"> 
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. 
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/team-3.jpg" alt=""></div>
+                            <h3 class="title">Rubeena khan</h3>
+                            <span class="post">Doctor</span>
                         </div>
-                        <div class="authorContainer">
-                            <p class="quote-author">Andy Fakename // CEO: Andy's Camping Supplies</p>
+                    </div>
+                       
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. 
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/team-4.jpg" alt=""></div>
+                            <h3 class="title">Steve Thomas</h3>
+                            <span class="post">Android Developer</span>
                         </div>
-                    </li>
-                    <li class="slide">
-                        <div class="quoteContainer">
-                            <p class="quote-phrase"><span class="quote-marks">"</span>Carl Fakeguy, was the most helpful
-                                designer I've ever hired. He listened to my ideas and advised against things that could
-                                negatively affect my CEO. Company A is by far the most generous and helpful company,
-                                5/5!<span class="quote-marks">"</span>
-
-                            </p>
+                    </div>     
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros. 
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/team-5.jpg" alt=""></div>
+                            <h3 class="title">Sumaiya Noor</h3>
+                            <span class="post">Accountant</span>
                         </div>
-                        <div class="authorContainer">
-                            <p class="quote-author">Janice Falsename</p>
+                    </div>     
+                       <div class="testimonial">
+                        <span class="icon fa fa-quote-left"></span>
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam justo neque, aliquet sit amet elementum vel, vehicula eget eros.
+                        </p>
+                        <div class="testimonial-content">
+                            <div class="pic"><img src="images/index/team-6.jpg" alt="img"></div>
+                            <h3 class="title">Alia Butt</h3>
+                            <span class="post">Networking head</span>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-        <script src="js/index.js"></script>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[979,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        autoPlay:true
+    });
+});
+     </script>
         <!--7th row end-->
         <!--Map Row Start-->
-        <div class="mapG">
+        <div class="mapG bg-light padDel">
 
-            <div class="mapouter bg-color-blue " style="margin-bottom: 20px;">
+            <div class="mapouter bg-color-blue " >
                 <div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas"
                         src="https://maps.google.com/maps?q=asia&t=k&z=3&ie=UTF8&iwloc=&output=embed" frameborder="0"
                         scrolling="no" marginheight="0" marginwidth="0"></iframe><a
