@@ -67,7 +67,7 @@
 }
 
 .sec-row-div {
-	background: rgba(255,255,255,1.00);
+
 	padding-top: 7%;
 	padding-bottom: 5%;
 	width: 100%;
@@ -218,20 +218,21 @@
 
 .card-font>h6 {
 	font-weight: bold;
-	font-size: 1.6vw;
+	font-size: 1.4vw;
+	text-align: center;
 	margin-top: 15px;
-	margin-left: 10px;
+	 		
 }
 
 .card-font>p {
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 	margin-top: 10px;
 	margin-left: 10px;
 }
 
 .card-parent {
 
-	max-width: 400px;
+	max-width: 300px;
 	min-width: 22vw;
 	background: rgba(90, 88, 88, 1.00);
 	height: auto;
@@ -239,6 +240,14 @@
 	overflow: hidden;
 	margin-left: 5%;
 	margin-right: 5%;
+	margin: auto;
+}
+@media screen and (max-width: 640px){
+.card-parent{
+    display: block;
+    width: 100%;
+	margin: auto;
+  }
 }
 
 .btn-div {
@@ -258,9 +267,9 @@
 .time {
 	display: inline;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 18px;
 	font-weight: 500;
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 }
 
 /*Model*/
@@ -348,7 +357,7 @@
     font-size: 80px;
 /*    color: #bd986b;*/
 	color:rgba(255,0,4,1.00);
-    margin-: redbottom: 20px;
+    margin-redbottom: 20px;
     opacity: 0.6;
 }
 .testimonial .description{
@@ -458,3 +467,13 @@
 }
 
 
+
+.icon-color {
+color:red;
+padding-right: 8px;
+}
+
+.respo {
+	margin: auto;
+	max-width: 350px;
+ }

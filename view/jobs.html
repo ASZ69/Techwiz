@@ -108,7 +108,7 @@
 		<div class="container-fluid">
 			<div class="row" style="height: 200px;">
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','JavaScript')">
 						<div class="center-xy">
 							<center>
 								<div class="fab fa-js-square fa-3x top-icon-colors"></div>
@@ -119,7 +119,7 @@
 					</div>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','Android Studio')">
 						<div class="center-xy">
 							<center>
 								<div class="fab fa-android fa-3x top-icon-colors"></div>
@@ -130,7 +130,7 @@
 					</div>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','React Native')">
 						<div class="center-xy">
 							<center>
 								<div class="fab fa-react fa-3x top-icon-colors"></div>
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Teaching','Professor')">
 						<div class="center-xy">
 							<center>
 								<div class="fas fa-user-tie fa-3x top-icon-colors"></div>
@@ -152,18 +152,18 @@
 					</div>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Doctor','Psychiatrist')">
 						<div class="center-xy">
 							<center>
 								<div class="fas fa-user-md fa-3x top-icon-colors"></div>
 							</center>
-							<h6 class="text-center">ENT Specilist</h6>
+							<h6 class="text-center">Psychiatrist</h6>
 							<div class="text-center tag-quantity">325</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p">
+					<div class="top-tag-p" ng-click="setCatsData('Banking','Manager')">
 						<div class="center-xy">
 							<center>
 								<div class="fas fa-crown fa-3x top-icon-colors"></div>
@@ -178,53 +178,7 @@
 	</div>
 
 <!--	<hr class="main-line">-->
-
-<!--	main cat spinner-->
 	
-	<div class="spinner-p">
-		<div class="row">
-			<div class="col-md-5">
-				
-			</div>
-			<div class="col-md-7">
-				<div class="tags">
-					<h5 class="tag-heading mr-2">Tags: </h5>
-					<div class="tag-1" ng-click="setCatsData('Banking','Manager')">Banking</div>
-					<div class="tag-2" ng-click="setCatsData('Computer Programming','React Native')">React-Native</div>
-					<div class="tag-3" ng-click="setCatsData('Computer Programming','JavaScript')">JavaScript</div>
-					<div class="tag-4" ng-click="setCatsData('Computer Programming','Android Studio')">Android Studio</div>
-					<div class="tag-5" ng-click="setCatsData('Banking','AssistanceManager')">Bank Assistant Manager</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-<!--	main  cat spinner ending-->
-	
-<!--	sub cat spinner-->
-	
-	<div class="spinner-p">
-		<div class="row">
-			<div class="col-md-5">
-				
-			</div>
-			<div class="col-md-7">
-				<div class="tags">
-					<h5 class="tag-heading mr-2">Tags: </h5>
-					<div class="tag-2" ng-click="setCatsData('Computer Programming','IOS Developer')">IOS Developer</div>
-					<div class="tag-5" ng-click="setCatsData('Teaching','Professor')">Professor</div>
-					<div class="tag-1" ng-click="setCatsData('Teaching','Director')">Director</div>
-					<div class="tag-3" ng-click="setCatsData('Computer Programming','WebSiteDeveloper')">Website Developer</div>
-					<div class="tag-4" ng-click="setCatsData('Doctor','ENT Specialist')">ENT Specialist</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-<!--	sub cat spinner ending-->
-
-	<br>
-
 	<h3 class="text-center">{{subCat}}</h3>
 
 	<div class="cards-p">
