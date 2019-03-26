@@ -109,5 +109,14 @@
 }
 
 .left-main {
-	margin-left: 30%;
+	margin-left: 8vw;
+}
+
+.ad {
+	border: 1px solid #000;
+	margin-left: -15%;
+}
+
+.ad-text {
+	margin-left: -15%;
 }
