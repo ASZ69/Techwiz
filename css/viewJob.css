@@ -71,3 +71,43 @@
 .map {
 	width: 100%;
 }
+
+.sub-box-left {
+	padding: 35px 3%;
+}
+
+.top-man-icon {
+	color: orangered;
+}
+
+.icon-left-p {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+.left-icon {
+	color: orangered;
+}
+
+.left-line {
+	width: 80%;
+	background-color: #CDCDCD;
+}
+
+.left-row {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.left-row-text {
+	margin-left: 35px;
+}
+
+.left-row-icon {
+	margin-top: 6px;
+}
+
+.left-main {
+	margin-left: 30%;
+}

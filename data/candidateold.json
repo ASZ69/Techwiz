@@ -1,0 +1,226 @@
+candidates = [
+	{
+		name : "Zeeshan",
+		email: "Zeeshan@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Zaman",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP","HTML",""],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+		{
+		name : "qasim",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["Angulor Js","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Zaman",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP","HTML",""],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+		{
+		name : "Zeeshan",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Zaman",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP","HTML",""],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+		{
+		name : "qasim",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["Angulor Js","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Zaman",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP","HTML",""],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "shfqat",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Hamza",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["HTML","JAVA","XML"],
+		location : "Karachi, Pakistan"
+	},
+	{
+		name : "Awais",
+		email: "email@gmail.com",
+		pswd: "1234",
+		skills : ["JAVA","XML","PHP"],
+		location : "Karachi, Pakistan"
+	},
+];

@@ -80,7 +80,58 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4">
-
+				<div class="sub-box-left">
+					<center>
+						<i class="fa fa-user-o fa-4x top-man-icon"></i>
+						<br>
+						<br>
+						<h4>{{mainCat}}</h4>
+						<h5>{{subCat}}</h5>
+						<div class="icon-left-p">
+							<i class="fa fa-facebook fa-2x left-icon"></i>
+							<i class="fa fa-twitter fa-2x left-icon"></i>
+							<i class="fa fa-skype fa-2x left-icon"></i>
+						</div>
+						<hr class="left-line">
+						<div class="left-main">
+							<br>
+							<div class="left-row">
+								<i class="fa fa-clock-o fa-2x left-row-icon"></i>
+								<div class="left-row-text">Posted Date<br>20 Jan 2019</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-bell fa-2x left-row-icon"></i>
+								<div class="left-row-text">Job Position<br>{{subCat}}</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-map-marker fa-2x left-row-icon"></i>
+								<div class="left-row-text">Job Location<br>{{jobData.location}}</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-hourglass fa-2x left-row-icon"></i>
+								<div class="left-row-text">Hours<br>12 hours</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-money fa-2x left-row-icon"></i>
+								<div class="left-row-text">Min Salery<br>{{jobData.salMin}}</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-money fa-2x left-row-icon"></i>
+								<div class="left-row-text">Max Salery<br>{{jobData.salMax}}</div>
+							</div>
+							<br><br>
+							<div class="left-row">
+								<i class="fa fa-trophy fa-2x left-row-icon"></i>
+								<div class="left-row-text">Some Skills<br>{{jobData.skills[0]}}</div>
+							</div>
+						</div>
+					</center>
+				</div>
 			</div>
 			<div class="col-md-8">
 				<div class="top-box">
@@ -137,7 +188,7 @@
 					
 					<div class="top-heading">
 						<h3 class="top-head">Job Location</h3>
-					</div>					
+					</div>
 					<div class="sub-box">
 						<div class="map">
 							<div class="mapG bg-light">
