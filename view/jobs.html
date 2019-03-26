@@ -179,7 +179,7 @@
 
 <!--	<hr class="main-line">-->
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
 				<br>
@@ -247,11 +247,11 @@
 								<img src="../images/products/cards/{{getRandomNo(1,10)}}.jpg" width="100%" height="100%" alt="g">
 							</div>
 							<div class="lc-row-text">
-								<h6 class="m-0">Professor</h6>
+								<h6 class="m-0">Hotel Manager</h6>
 								<div class="lc-text">
 									<div style="font-size: 14px;"><i class="fa fa-clock-o mr-2 text-danger"></i>Full Time</div>
 									<div style="font-size: 14px;">
-										<i class="fa fa-map-marker mr-2 text-success"></i>Kolkata
+										<i class="fa fa-map-marker mr-2 text-success"></i>Faisalabad
 									</div>
 								</div>
 								<p class="lc-aplay">View more</p>
@@ -279,16 +279,19 @@
 								<div><span class="fa fa-suitcase text-danger"></span> {{card.vacancies}} Vacancies</div>
 								<div><span class="fa fa-clock-o text-primary"></span> {{card.exp}}Y Experience</div>
 							</div>
-							<h5 class="card-discrip-head">
+							<h5 class="card-discrip-head mb-2">
 								<i class="fas fa-file-alt mr-1" style="color: yellow"></i>
 								Job Discription :
 							</h5>
 							<div class="card-disc">
-								{{card.discription}}
+								<p class="card-disc-anim">{{card.discription}}</p>
 							</div>
+							<button ng-click="cardClick($event)" class="btn btn-danger btn-card">View</button>
+<!--
 							<div class="card-btn-padding">
 								<button ng-click="cardClick($event)" class="btn-view btn btn-light btn-sm btn-block">View</button>
 							</div>
+-->
 						</div>
 					</div>
 
