@@ -6,6 +6,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.0/css/all.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -73,36 +74,117 @@
 	</nav>
 
 	<div class="top-img">
-		<img src="../images/crousal/slide1.jpg" alt="img" width="100%" height="400px">
+		<img src="../images/crousal/slide1.jpg" alt="img" width="100%" height="500px">
 		<h1 class="center-xy heading">Find Jobs Easily</h1>
+		<div class="center-x top-main">
+			<center>
+				<div class="search">
+					<input type="text" class="form-control search-box mr-2" placeholder="Search Job Title,Skill or Company" ng-model="search">
+					
+<!--					selector-->
+					<select class="form-control spinner mr-2" ng-model="mainCat" ng-change="mainSpChange()">
+						<option ng-repeat="item in spinnerArray" ng-selected="{{item.mainCat == mainCat}}"  value="{{item.mainCat}}">
+							{{item.mainCat}}
+						</option>
+					</select>
+<!--					selector-->
+					
+<!--					2nd selector-->
+					<select class="form-control spinner mr-2" ng-show="mainCat" ng-model="subCat">
+						<option ng-repeat="subItem in subSpinnerItems" ng-selected="{{subItem.name == subCat}}" value="{{subItem.name}}">
+							{{subItem.name}}
+						</option>
+					</select>
+<!--					2nd selector-->
+					
+					<button type="submit" class="btn btn-primary btn-search">Search</button>
+					
+				</div>
+			</center>
+		</div>
 	</div>
-
-	<div class="top-main">
-		<h3 class="text-center">Search Your Related Jobs</h3>
-		<br>
-		<center>
-			<div class="search">
-				<input type="text" class="form-control mb-2 mr-sm-2 search-box" placeholder="Search Jobs..." ng-model="search">
-				<button type="submit" class="btn btn-primary mb-2 btn-search">Search</button>
+	
+	<div class="overlap-box">
+		<div class="container-fluid">
+			<div class="row" style="height: 200px;">
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fab fa-js-square fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">Javascript</h6>
+							<div class="text-center tag-quantity">200</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fab fa-android fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">Android</h6>
+							<div class="text-center tag-quantity">180</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fab fa-react fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">React-Native</h6>
+							<div class="text-center tag-quantity">40</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fas fa-user-tie fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">Professor</h6>
+							<div class="text-center tag-quantity">95</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fas fa-user-md fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">ENT Specilist</h6>
+							<div class="text-center tag-quantity">325</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 padDel">
+					<div class="top-tag-p">
+						<div class="center-xy">
+							<center>
+								<div class="fas fa-crown fa-3x top-icon-colors"></div>
+							</center>
+							<h6 class="text-center">Manager</h6>
+							<div class="text-center tag-quantity">140</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		</center>
+		</div>
 	</div>
 
-	<hr class="main-line">
+<!--	<hr class="main-line">-->
 
 <!--	main cat spinner-->
 	
 	<div class="spinner-p">
 		<div class="row">
 			<div class="col-md-5">
-				<div class="dis-flex">
-					<h5 class="sp-label">Choose Main Category : </h5>
-					<select class="form-control spinner" ng-model="mainCat" ng-change="mainSpChange()">
-						<option ng-repeat="item in spinnerArray" ng-selected="{{item.mainCat == mainCat}}"  value="{{item.mainCat}}">
-							{{item.mainCat}}
-						</option>
-					</select>
-				</div>
+				
 			</div>
 			<div class="col-md-7">
 				<div class="tags">
@@ -124,14 +206,7 @@
 	<div class="spinner-p">
 		<div class="row">
 			<div class="col-md-5">
-				<div class="dis-flex">
-					<h5 class="sp-label">Choose Sub Category : </h5>
-					<select class="form-control spinner" ng-show="mainCat" ng-model="subCat">
-						<option ng-repeat="subItem in subSpinnerItems" ng-selected="{{subItem.name == subCat}}" value="{{subItem.name}}">
-							{{subItem.name}}
-						</option>
-					</select>
-				</div>
+				
 			</div>
 			<div class="col-md-7">
 				<div class="tags">
