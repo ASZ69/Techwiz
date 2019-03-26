@@ -477,3 +477,22 @@ padding-right: 8px;
 	margin: auto;
 	max-width: 350px;
  }
+
+.top-coma {
+	color: red;
+	
+}
+
+.img-4-top-font {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.img-4-botm-font {
+	text-align: center;
+	font-weight: 700;
+	font-style: italic;
+	font-size:2.5vw;
+}
