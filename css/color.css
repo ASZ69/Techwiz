@@ -1,0 +1,10 @@
+/* CSS Document */
+:root {
+    /*    declaring some variables for color*/
+    --bg-color: white;
+    --hover-color-back:#000000;
+    --hover-color:#C70407;
+	--bg-alpha-overlay:#121212;
+	--icon-btn:#fb383b;
+	--nav-color:rgba(253,253,253,0.84);
+}
