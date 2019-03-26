@@ -18,31 +18,21 @@ function changeTheme(ref) {
 function loadTheme(selected) {
     switch (selected) {
         case "Day":
-            document.documentElement.style.setProperty('--hover', '#00FFF3');
-            document.documentElement.style.setProperty('--index-overlay', 'rgba(0,255,243,0.55)');
-            document.documentElement.style.setProperty('--hover-btn', 'rgba(0,255,243,1)');
-            document.documentElement.style.setProperty('--t-md', 'black');
-            document.documentElement.style.setProperty('--t-sm', 'black');
-            document.documentElement.style.setProperty('--bg-cd', '#fff');
-            document.documentElement.style.setProperty('--cd-t-sm', 'black');
-            document.documentElement.style.setProperty('--cd-t-md', 'black');
-            document.documentElement.style.setProperty('--bg', '#fff');
-            document.documentElement.style.setProperty('--bg-rev', '#000');
-            document.documentElement.style.setProperty('--bg-nav', '#111');
+            document.documentElement.style.setProperty('--bg-color', 'white');
+            document.documentElement.style.setProperty('--index-overlay', '#000000');
+            document.documentElement.style.setProperty('--hover-btn', '#C70407');
+            document.documentElement.style.setProperty('--bg-alpha-overlay', '#121212');
+            document.documentElement.style.setProperty('--icon-btn', '#fb383b');
+			document.documentElement.style.setProperty('--nav-color', 'rgba(253,253,253,0.84);');
             break;
 
         case "Day (Colored)":
-            document.documentElement.style.setProperty('--hover', '#F0C36F');
-            document.documentElement.style.setProperty('--index-overlay', 'rgba(152,34,6,0.60)');
-            document.documentElement.style.setProperty('--hover-btn', '#C4DBFF');
-            document.documentElement.style.setProperty('--t-md', '#006F55');
-            document.documentElement.style.setProperty('--t-sm', '#09B48C');
-            document.documentElement.style.setProperty('--bg-cd', '#F8DEAC');
-            document.documentElement.style.setProperty('--cd-t-sm', '#E79B0C');
-            document.documentElement.style.setProperty('--cd-t-md', '#006F55');
-            document.documentElement.style.setProperty('--bg', '#FDEFD3');
-            document.documentElement.style.setProperty('--bg-rev', '#000');
-            document.documentElement.style.setProperty('--bg-nav', '#006F55');
+            document.documentElement.style.setProperty('--bg-color', 'white');
+            document.documentElement.style.setProperty('--index-overlay', '#000000');
+            document.documentElement.style.setProperty('--hover-btn', '#C70407');
+            document.documentElement.style.setProperty('--bg-alpha-overlay', '#121212');
+            document.documentElement.style.setProperty('--icon-btn', '#fb383b');
+			document.documentElement.style.setProperty('--nav-color', 'rgba(253,253,253,0.84);');
             break;
 
         case "Night":
