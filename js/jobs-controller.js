@@ -97,5 +97,11 @@ jobs.controller("jobsController", function ($scope, $filter) {
 		$scope.mainSpChange();
 		$scope.subCat = subCat;
 	}
+	
+	$scope.cardClick = function(event){
+		var clickedRefer = event.currentTarget;
+		var company = clickedRefer.parentElement.parentElement.getElementsByClassName('card-head')[0].innerHTML;
+		window.location.href = 'viewJob.html?mainCat=%22'+$scope.mainCat+'%22&subCat=%22'+$scope.subCat+'%22&company=%22'+company+'%22';
+	}	
 
 });
