@@ -1,11 +1,15 @@
 /* CSS Document */
+*{
+	box-sizing: border-box;
+	transition: 1s all;
+}
 
 .top-img {
 	position: relative;
 }
 
 .heading {
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #fff;
 }
 .top-heading {
@@ -31,4 +35,39 @@
 	float: right;
 	margin-right: 1vw;
 	margin-top: 12px;
+}
+
+.sub-box {
+	padding: 40px;
+}
+
+.res-tags-p {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.res-tag {
+    margin:15px;
+    width:150px;
+}
+
+.res-icons {
+	color: orangered;
+}
+
+.salery-p {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-around;
+}
+
+.sal-icon {
+	padding-right: 10px;
+	color: orangered;
+}
+
+.map {
+	width: 100%;
 }

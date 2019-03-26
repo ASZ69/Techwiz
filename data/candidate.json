@@ -1,7 +1,7 @@
 candidates = [
 	{
 		name : "Zeeshan",
-		email: "email@gmail.com",
+		email: "Zeeshan@gmail.com",
 		pswd: "1234",
 		skills : ["JAVA","XML"],
 		location : "Karachi, Pakistan"

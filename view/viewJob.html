@@ -86,12 +86,167 @@
 				<div class="top-box">
 					<div class="top-heading">
 						<h3 class="top-head">Job Discription</h3>
-						<button class="btn-back btn btn-outline-light" onClick="window.goBack(-1)">Go Back</button>
+						<button class="btn-back btn btn-outline-light" onClick="return history.back(-1)">Go Back</button>
 					</div>
+					<div class="sub-box">
+						<h4>{{jobData.companyTitle}}</h4>
+						<p>{{jobData.companyTitle}} offers best jobs for {{subCat}} :</p>
+						<br>
+						<p>{{jobData.discription}}</p>
+					</div>
+					<div class="top-heading">
+						<h3 class="top-head">Required Skills</h3>
+					</div>
+					<div class="sub-box">
+						<div class="res-tags-p">
+							<span class="res-tag" ng-repeat="tag in jobData.skills">
+								<i class="fa fa-check-circle mr-2 res-icons"></i>{{tag}}
+							</span>
+						</div>
+					</div>
+					<div class="top-heading">
+						<h3 class="top-head">Experience &amp; Salery</h3>
+					</div>
+					<div class="sub-box">
+						<div class="salery-p">
+							<h5>
+								<i class="fa fa-credit-card sal-icon"></i>
+								<span>Min Salery: </span>
+								{{jobData.salMin}}
+							</h5>
+							<h5>
+								<i class="fa fa-credit-card sal-icon"></i>
+								<span>Max Salery: </span>
+								{{jobData.salMax}}
+							</h5>
+						</div>
+						<br><br>
+						<div class="salery-p">
+							<h5>
+								<i class="fa fa-user sal-icon"></i>
+								<span>Vacancies: </span>
+								{{jobData.vacancies}}
+							</h5>
+							<h5>
+								<i class="fa fa-vcard sal-icon"></i>
+								<span>Experience: </span>
+								{{jobData.exp}}
+							</h5>
+						</div>
+					</div>
+					
+					<div class="top-heading">
+						<h3 class="top-head">Job Location</h3>
+					</div>					
+					<div class="sub-box">
+						<div class="map">
+							<div class="mapG bg-light">
+								<div class="mapouter bg-color-blue " >
+									<div class="gmap_canvas">
+										<iframe width="100%" height="300px" id="gmap_canvas"
+											src="https://maps.google.com/maps?q=aptech%20shar&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+											scrolling="no" marginheight="0" marginwidth="0">
+										</iframe>
+									</div>
+									<style>
+										.mapouter {
+											text-align: right;
+											height: 300px;
+											width: 100%;
+										}
+
+										.gmap_canvas {
+											overflow: hidden;
+											background: none !important;
+											height: 300px;
+											width: 100%;
+										}
+									</style>
+								</div>
+							</div>
+						</div>
+						<br>
+						<h4 class="text-center">{{jobData.location}}</h4>
+					</div>
+					
 				</div>
 			</div>
 		</div>
 	</div>
+	
+	<!--	about panel-->
+	<div class="about-panel container-fluid">
+		<div class="row">
+			<div class="col-md-3 ab-first-row">
+				<center><img alt="img" src="../images/logo-red.png" width="200px" height="auto" /></center>
+				<!--					<br>-->
+				<!--					<p>We provide you best opertunities to get Jobs in a high talented working comunity.</p>-->
+				<br><br>
+				<center>
+					<hr style="background-color: #1E1E1E; width: 90%;">
+				</center>
+				<p>Call Us - 0348-2821889</p>
+				<p>Send Email On ranag4u69@gmail.com</p>
+				<p>Visit Us SFC Aptech Karachi, Pakistan</p>
+			</div>
+			<div class="col-md-3">
+				<h3>POPULAR CATEGORIES</h3>
+				<br>
+				<div class="tags">
+					<span>REACT-NATIVE</span>
+					<span>ANDROID</span>
+					<span>HTML &amp; CSS</span>
+					<span>JAVASCRIPT</span>
+					<span>REACT-JS</span>
+					<span>JAVA</span>
+					<span>ASP.NET</span>
+				</div>
+				<br>
+				<br>
+				<br>
+				<h3>GET MORE INFO</h3>
+				<p>Get any info or give us any suggestions by contacting us.We provide you best opertunities to get
+					Jobs quickly.</p>
+			</div>
+			<div class="col-md-3">
+				<h3>RECENTS JOBS</h3><br>
+				<h4>Software House Manager</h4>
+				<h4>Content Writer</h4>
+				<h4>Game Developer</h4>
+				<h4>Frontend Designer</h4>
+				<h4>Backend Server Designer</h4>
+				<br>
+				<br>
+
+				<p>Get More Jobs...</p>
+				<div class="icon-bar">
+					<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="google"><i class="fa fa-google"></i></a>
+					<a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+					<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<h3>CONTACT US</h3>
+				<br>
+				<input class="form-control" placeholder="Name" /><br>
+				<input class="form-control" placeholder="Email" /><br>
+				<input class="form-control" placeholder="Subject" /><br>
+				<input class="form-control" placeholder="Content" /><br>
+				<input type="button" class="btn btn-outline-success" value="Submit" />
+			</div>
+		</div>
+	</div>
+	<!--	about panel end-->
+
+	<!--	 Footer-->
+	<div class="footer-div">
+		<footer>Copyright TechWiz &copy;- All rights Reserved</footer>
+	</div>
+	<!--	footer end-->
+
+
 	
 </body>
 </html>
