@@ -21,9 +21,15 @@ function loadTheme(selected) {
             document.documentElement.style.setProperty('--bg-color', 'white');
             document.documentElement.style.setProperty('--index-overlay', '#000000');
             document.documentElement.style.setProperty('--hover-btn', '#C70407');
-            document.documentElement.style.setProperty('--bg-alpha-overlay', '#121212');
-            document.documentElement.style.setProperty('--icon-btn', '#fb383b');
+            document.documentElement.style.setProperty('--bg-alpha-overlay', 'rgba(0,0,0,0.87)');
+            document.documentElement.style.setProperty('--icon-btn', '#FB0003');
 			document.documentElement.style.setProperty('--nav-color', 'rgba(253,253,253,0.84);');
+			document.documentElement.style.setProperty('--circle-color', '#999999');
+		    document.documentElement.style.setProperty('--circle-bg-color', '#333');
+			 document.documentElement.style.setProperty('--circle-hover-bg-color', 'rgba(21,21,21,0.95)');
+			 document.documentElement.style.setProperty('--card-bg-color', 'rgba(90, 88, 88, 1.00)');
+			document.documentElement.style.setProperty('--font-color', '#000000');
+			document.documentElement.style.setProperty('--about-panal', '#000000');
             break;
 
         case "Day (Colored)":

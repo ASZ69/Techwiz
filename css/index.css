@@ -76,8 +76,8 @@
 
 .sec-row-div>h3 {
 	font-size: 1.6vw;
-	color:rgba(224,4,7,1.00);
-	font-style: italic;
+	color:var(--icon-btn);
+	
 	font-weight: bold;
 }
 
@@ -101,7 +101,7 @@
 	left: 0;
 	width: 100%;
 	height: 390px;
-	background: rgba(0, 0, 0, 0.63);
+	background:var(--bg-alpha-overlay);
 }
 
 .circle-sec {
@@ -113,8 +113,16 @@
 	width: 15vw;
 	height: 15vw;
 	border-radius: 50%;
-	border: 1vw solid #999999;
+	border: 1vw solid var(--circle-color);
 }
+.outer-circle:hover{
+	background: var(--circle-bg-color);
+	transition: 1s;
+	        
+
+}
+
+
 
 .circle-div {
 	height: auto;
@@ -132,12 +140,17 @@
 	height: 12vw;
 	width: 12vw;
 	border-radius: 50%;
-	background-color: #333;
+	background-color:var(--circle-bg-color);
 	/*	margin: 0.9vw;*/
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+.inner-circle:hover{
+	background: var(--circle-hover-bg-color);
+	transition: 1s;
+    cursor: pointer;
 }
 
 .inner-circle>div {
@@ -193,20 +206,23 @@
 }
 
 .card-button {
-	background: rgba(0, 0, 0, 1.00);
+	background:var(--index-overlay);
 	text-align: center;
-	color: rgba(184, 0, 3, 1.00);
+	color:var(--icon-btn);
 	font-weight: bolder;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	border: none;
 	text-decoration: none;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+/*	box-shadow: 0 16px 16px 0 var(--index-overlay);*/
 }
 
-.card-button:hover {
-	opacity: 0.8;
-	background-color: var(--hover-color);
+.card-button:hover{
+	opacity: 0.9;
+	background-color:var(--icon-btn);
+	color:var(--index-overlay);
+	cursor: pointer;
+    transition: 1.5s all;
 }
 
 .card-font {
@@ -234,9 +250,9 @@
 
 	max-width: 300px;
 	min-width: 22vw;
-	background: rgba(90, 88, 88, 1.00);
+	background: var(--card-bg-color);
 	height: auto;
-	color: whitesmoke;
+	color: var(--bg-color);
 	overflow: hidden;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -273,18 +289,20 @@
 }
 
 /*Model*/
-.red-heading {
+.int-heading {
 	font-size: 1.2vw;
-	color: red;
+	color: var(--icon-btn);
 }
 
 .heading {
 	font-size: 2vw;
 	letter-spacing: 1.2px;
 	font-weight: 700;
+	color: var(--font-color);
 }
 
 .para {
+	color: var(--font-color);
 	font-size: 1.2vw;
 	letter-spacing: 1px;
 }
@@ -294,9 +312,23 @@
 	width: 7.5vw;
 	height: 7.5vw;
 	border-radius: 50%;
-	border: 3px solid rgba(45, 44, 44, 1.00);
+	border: 3px solid var(--circle-bg-color);
 	/*	float: right;*/
-	background-color: black;
+	background-color: var(--index-overlay);
+}
+.circle:hover{
+	background-color: var(--icon-btn);
+	transition: 1.5s all;
+	cursor: pointer;
+	
+}
+.circle:hover .icons{
+	color:var(--index-overlay); 
+	transition: 1.5s all;
+	cursor: pointer;
+	font-size: 2.5vw;
+	font-weight: bolder;
+	
 }
  
 .circle-p {
@@ -320,17 +352,19 @@
 
 .text-box-para {
 	font-size: 0.8vw;
+/*	font-weight: bold;*/
+	color: var(--font-color);
 }
 
 .icons {
 	margin-top: 30%;
-	color: white;
+	color:var(--bg-color);
 	font-size: 2.5vw;
 }
 
 /*Crousal*/
 .testimonial{
-    background: #fff;
+    background: var(--bg-color);
     text-align: center;
     padding: 30px 30px 90px;
     margin: 0 15px 80px;
@@ -340,7 +374,7 @@
 .testimonial:before,
 .testimonial:after{
     content: "";
-    border-top: 40px solid #fff;
+    border-top: 40px solid var(--bg-color);
     border-right: 125px solid transparent;
     position: absolute;
     bottom: -40px;
@@ -356,13 +390,13 @@
     display: inline-block;
     font-size: 80px;
 /*    color: #bd986b;*/
-	color:rgba(255,0,4,1.00);
+	color:var(--icon-btn);
     margin-redbottom: 20px;
     opacity: 0.6;
 }
 .testimonial .description{
     font-size: 16px;
-    color: #777;
+    color:var(--circle-bg-color);
     text-align: justify;
     margin-bottom: 30px;
     opacity: 0.9;
@@ -375,9 +409,9 @@
 }
 .testimonial .pic{
     display: inline-block;
-    border: 6px solid white;
+    border: 6px solid var(--bgcolor);
     border-radius: 50%;
-    box-shadow: 0 0 2px 2px  rgba(255,0,4,1.00);
+    box-shadow: 0 0 2px 2px var(--icon-btn);
     overflow: hidden;
     z-index: 1;
     position: relative;
@@ -389,7 +423,7 @@
 .testimonial .title{
     font-size: 15px;
     font-weight: bold;
-    color: #fff;
+    color: var(--bg-color);
     text-transform: capitalize;
     margin: 0 0 5px 0;
 }
@@ -402,7 +436,7 @@
     display: block;
     font-size: 14px;
 /*    color: #ffd9b8;*/
-   color: red;
+   color: var(--icon-btn);
 }
 .owl-theme .owl-controls{
     margin-top: 60px;
@@ -469,7 +503,7 @@
 
 
 .icon-color {
-color:red;
+color:var(--icon-btn);
 padding-right: 8px;
 }
 
@@ -484,19 +518,53 @@ padding-right: 8px;
 }
 
 .img-4-top-font {
-	color: var(icon-color);
+	color: var(--icon-btn);
 	text-align: center;
 	font-weight: bold;
-	font-style: italic;
+	
 }
 
 .img-4-botm-font {
 	text-align: center;
 	font-weight: 700;
-	font-style: italic;
 	font-size:2.5vw;
 }
 
 .bg-color {
 	background: var(--bg-color);
 }
+
+.web-bg-img {
+	 z-index: -2;
+    height: 100vh;
+    width: 100vw;
+	position: fixed;
+}
+
+.div-bg-color {
+background:var(--bg-color);
+}
+
+.crousal-heading {
+	font-weight: bolder;
+	text-align: center;
+	color:var(--icon-btn);
+	padding-top: 10px; 
+	font-size: 2vw;
+}
+
+.crousal-heading1 {
+	font-weight: bolder;
+	text-align: center;
+	color: var(--bg-color);
+	font-size: 4.5vw;
+	font-stretch: expanded;
+}
+
+.l-icon {
+	font-size:2vw;
+	line-height: 3em;
+	color: var(--icon-btn);
+}
+
+
