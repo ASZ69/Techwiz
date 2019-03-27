@@ -16,12 +16,15 @@ $(document).ready(function(){
 	$('#date').html(new Date().getFullYear() +"-"+(parseInt(new Date().getMonth())+1)+"-"+new Date().getDate());
 	
 	var text = "";
+	var text2 = "";
 	var url = "";
 	if(window.localStorage.getItem("type") == "I'm a Job Seeker"){
 		text = "View Jobs";
+		text2 = "Find Jobs";
 		url = "jobs.html";
 	}else{
-		text = "Post Jobs";
+		text = "View Candidates";
+		text2 = "Find Candidates";
 		url = "candidate.html";
 	}
 	
@@ -31,7 +34,7 @@ $(document).ready(function(){
 	$('#navJob').html(line);
 	$('#navJob2').html(line2);
 	
-	$('#mainHead').html(text+" Easily");
+	$('#mainHead').html(text2+" Easily");
 	
    var auth = window.localStorage.getItem("auth");
    var name = window.localStorage.getItem("name");
