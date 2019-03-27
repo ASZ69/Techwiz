@@ -568,3 +568,24 @@ background:var(--bg-color);
 }
 
 
+
+.top-search {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 80%;
+	background-color: rgba(184,184,184,0.70);
+	border-radius: 8px;
+	padding: 12px;
+}
+
+.top-heading {
+	top: 210px;
+	font-size: 4vw;
+	font-weight: bold;
+	color: var(--icon-btn);
+}
+
+.btn-search-top {
+	background-color: var(--icon-btn);
+	color: white;
+}
