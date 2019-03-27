@@ -3,7 +3,7 @@
 $(document).ready(function () {
     var selected = localStorage.getItem("Theme");
     if (selected == null) {
-        loadTheme("Night");
+        loadTheme("Day");
     } else {
         loadTheme(selected);
     }
