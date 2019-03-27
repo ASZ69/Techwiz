@@ -28,7 +28,48 @@
 
 <body ng-app="candidate" ng-controller="candidateController">
 	
-	<div class="top-light-box">
+	
+<!--	hire job box-->
+	<div class="top-light-box" id="hireJob">
+		<script>
+			function hire(){
+				if($('#lbName').val() == "" || $('#lbEmail').val() == "" || $('#lbTitle').val() == ""){
+					$('#toast').html('Fill all fields');
+				}else{
+				   	$('#toast').html('Email Sent to that candidate');
+					setTimeout(function(){
+						$('.top-light-box').css("display","none");
+					},2000);
+				}
+			}
+		</script>
+		<button class="btn btn-danger light-box-close" onClick="closeBox()">&times;</button>
+		<div class="loginbox">
+			<img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+			<h1>Give Info</h1>
+			<form>
+				<center>
+					<p>Name</p>
+					<input id="lbName" type="text" name="" placeholder="Enter Name" required>
+					<br><br>
+					<p>Email</p>
+					<input id="lbEmail" type="email" name="" placeholder="Enter Email" required>
+					<br><br>
+					<p>Job Title</p>
+					<input id="lbTitle" type="text" name="" placeholder="Company Title" required>
+					<br><br>
+					<input type="submit" name="" value="Hire Now" onClick="hire(this)">
+				</center>
+			</form>
+			<br>
+			<h1 id="toast"></h1>
+		</div>
+	</div>
+<!--	hire job box-->
+
+	
+<!--	post job box-->
+	<div class="top-light-box" id="postJob">
 		<script>
 			function closeBox(){
 				$('.top-light-box').css("display","none");
@@ -69,6 +110,7 @@
 			<h1 id="toast"></h1>
 		</div>
 	</div>
+<!--	post job box-->
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
@@ -482,7 +524,7 @@
 									<span ng-repeat="tag in card.skills">{{tag}}</span>
 								</div>
 							</h5>
-							<button ng-click="cardClick($event)" class="btn btn-danger btn-card">
+							<button onClick="openHireJob()" class="btn btn-danger btn-card">
 								Hire
 							</button>
 						</div>

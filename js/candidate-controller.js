@@ -26,5 +26,9 @@ jobs.controller("candidateController", function ($scope, $filter) {
 });
 
 function openPostJob(){
-	$('.top-light-box').css("display","block");
+	$('#postJob').css("display","block");
+}
+
+function openHireJob(){
+	$('#hireJob').css("display","block");
 }
