@@ -29,6 +29,8 @@ $(document).ready(function(){
 	
 	$('#navJob').html(line);
 	
+	$('#mainHead').html(text+" Easily");
+	
    var auth = window.localStorage.getItem("auth");
    var name = window.localStorage.getItem("name");
     if(auth == "true"){
