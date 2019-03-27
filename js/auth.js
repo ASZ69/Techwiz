@@ -20,8 +20,15 @@ function login(rel){
        alert("type email or password");
     }else{
 //        alert("scjka");
-        localStorage.setItem("auth", "true");
-        history.go(-1);
+//        localStorage.setItem("auth", "true");
+//        history.go(-1);
+	
+	  var h1=document.getElementById('toast');
+		h1.innerHTML = "Email sent succesfuly"
+		setTimeout(function(){
+			history.go(-2);
+		},2000);
+
 //        var url = window.location.href.split("view")[0];
 //        alert(url + "index.html");
 //        window.location.link = url + "index.html";

@@ -13,16 +13,18 @@
 <!--    login start-->
     <div class="loginbox">
     <img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
-        <h1>Login Here</h1>
+        <h1>Give Info</h1>
         <form>
+			<p>Applicant Name</p>
+            <input id="logName" type="text" name="" placeholder="Enter Name" required>
             <p>Email</p>
             <input id="logEmail" type="email" name="" placeholder="Enter Email" required>
-            <p>Password</p>
-            <input id="logpassWord" type="password" name="" placeholder="Enter Password" required>
-            <input type="submit" name="" value="Login" onClick="login(this)">
-            <a href="#" onClick="showSignUp(this)">Don't have an account?</a>
+            <p>Address</p>
+            <input id="logpassWord" type="text" name="" placeholder="Enter Address" required>
+            <input type="submit" name="" value="Apply Now" onClick="login(this)">
+            
         </form>
-        
+        <h1 id="toast"></h1>
     </div>
 <!--    login end-->
     
