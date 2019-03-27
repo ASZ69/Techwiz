@@ -26,3 +26,8 @@ jobs.controller("jobViewController", function ($scope, $filter) {
     }
 
 });
+
+
+function openApplyJob(){
+	$('#applyForJob').css("display","block");
+}

@@ -132,3 +132,19 @@
 	height: 200px;
 	background-color: #666666;
 }
+
+.btn-last {
+	padding: 12px 21px;
+	background: rgba(255,0,0,1.00);
+	width: 80%;
+	text-align: center;
+	border-radius: 40px;
+	font-size: 2vw;
+	font-weight: bolder;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.btn-last:hover {
+	cursor: pointer;
+}
