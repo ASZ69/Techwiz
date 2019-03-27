@@ -1,5 +1,9 @@
 /* CSS Document */
 
+body{
+	overflow-x: hidden;
+}
+
 .about-panel {
 	background-color:var(--about-panal);
 	padding: 30px;
@@ -36,7 +40,7 @@
 }
 
 .about-panel h4:before {
-	color: blue;
+	color: var(--icon-btn);
 	content: '> ';
 }
 
@@ -95,11 +99,11 @@
 }
 
 .ab-btn {
-	color: var(--bg-color);
-	background: var(--icon-btn);
+	color: var(--bg-color) !important;
+	background-color: var(--icon-btn) !important;
 }
 .ab-btn:hover{
 	transition: 1.5s all; 
-	color:  var(--icon-btn);
-	background:var(--bg-color);
+	color:  var(--icon-btn) !important;
+	background-color:var(--bg-color) !important;
 }

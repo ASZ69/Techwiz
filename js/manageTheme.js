@@ -23,7 +23,7 @@ function loadTheme(selected) {
             document.documentElement.style.setProperty('--hover-btn', '#C70407');
             document.documentElement.style.setProperty('--bg-alpha-overlay', 'rgba(0,0,0,0.87)');
             document.documentElement.style.setProperty('--icon-btn', '#FB0003');
-			document.documentElement.style.setProperty('--nav-color', 'rgba(104, 99, 99, 1.00)');
+			document.documentElement.style.setProperty('--nav-color', 'rgba(104, 99, 99, 0.80)');
 			document.documentElement.style.setProperty('--circle-color', '#999999');
 		    document.documentElement.style.setProperty('--circle-bg-color', '#333');
 			 document.documentElement.style.setProperty('--circle-hover-bg-color', 'rgba(21,21,21,0.95)');

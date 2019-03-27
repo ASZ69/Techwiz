@@ -12,8 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	  <script src="../js/manageTheme.js"></script>
     <script src="../js/common.js"></script>
+	<script src="../js/manageTheme.js"></script>
 <title>Contact Us</title>
 </head>
 
@@ -72,8 +72,8 @@
                   	 <h1 class="heading">Contact Us</h1>
                     <p class="main-parag">A World Class Classified Company</p>
             </div>
-        </div><br><br><br><br>
-        
+        </div>
+		<br><br><br><br>
     </div>   
     
     
@@ -147,8 +147,6 @@
            </div>  
         </div><br>
 
-
-
 <!--	about panel-->
 	 <div class="about-panel container-fluid">
             <div class="row">
@@ -195,27 +193,26 @@
 
                     <p>Get More Jobs...</p>
                     <div class="icon-bar">
-                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="google"><i class="fa fa-google"></i></a>
-                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-               
+                        <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.google.com" class="google"><i class="fa fa-google"></i></a>
+                        <a href="https://www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <h3>CONTACT US</h3>
                     <br>
-                    <input class="form-control" placeholder="Name" /><br>
-                    <input class="form-control" placeholder="Email" /><br>
-                    <input class="form-control" placeholder="Subject" /><br>
-                    <input class="form-control" placeholder="Content" /><br>
-                    <input type="button" class="btn ab-btn" value="Submit" />
+                    <form>
+						<input class="form-control" placeholder="Name" required /><br>
+						<input class="form-control" placeholder="Email" required/><br>
+						<input class="form-control" placeholder="Subject" required/><br>
+						<input class="form-control" placeholder="Content" required/><br>
+						<input type="submit" class="btn ab-btn" value="Submit" onSubmit="alert('form sent')" />
+					</form>
                 </div>
             </div>
         </div>
-
-    </div>
-	<!--	about panel end-->
+<!--	about panel end-->
 
 	<!--	 Footer-->
 	<div class="footer-div">
