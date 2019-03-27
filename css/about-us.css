@@ -116,7 +116,9 @@ p {
 	text-align:center;
 	font-size:2.5vw;
 	font-weight:bold;
-	margin:4% 0 5% 0;
+	margin:4% auto 5% auto;
+	border-bottom: 3.5px solid red;
+	width: 15%;
 	}
 .child-parag{
 	color:red;
