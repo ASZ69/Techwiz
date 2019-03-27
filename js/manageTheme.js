@@ -1,4 +1,4 @@
-// JavaScript Document
+icons-cl// JavaScript Document
 
 $(document).ready(function () {
     var selected = localStorage.getItem("Theme");
@@ -30,15 +30,29 @@ function loadTheme(selected) {
 			 document.documentElement.style.setProperty('--card-bg-color', 'rgba(90, 88, 88, 1.00)');
 			document.documentElement.style.setProperty('--font-color', '#000000');
 			document.documentElement.style.setProperty('--about-panal', '#000000');
+			document.documentElement.style.setProperty('--search-bound', 'rgba(147,147,147,0.70)');
+			document.documentElement.style.setProperty('--slide-icon', 'rgba(0,0,0,0.73)');
+			document.documentElement.style.setProperty('--bg-shade', '#F8F8F8');
+			
             break;
 
         case "Day (Colored)":
-            document.documentElement.style.setProperty('--bg-color', 'white');
+             document.documentElement.style.setProperty('--bg-color', 'white');
             document.documentElement.style.setProperty('--index-overlay', '#000000');
             document.documentElement.style.setProperty('--hover-btn', '#C70407');
-            document.documentElement.style.setProperty('--bg-alpha-overlay', '#121212');
-            document.documentElement.style.setProperty('--icon-btn', '#fb383b');
-			document.documentElement.style.setProperty('--nav-color', 'rgba(253,253,253,0.84)');
+            document.documentElement.style.setProperty('--bg-alpha-overlay', 'rgba(0,0,0,0.87)');
+            document.documentElement.style.setProperty('--icon-btn', '#09C4B6');
+			document.documentElement.style.setProperty('--nav-color', 'rgba(104, 99, 99, 1.00)');
+			document.documentElement.style.setProperty('--circle-color', '#999999');
+		    document.documentElement.style.setProperty('--circle-bg-color', '#333');
+			 document.documentElement.style.setProperty('--circle-hover-bg-color', 'rgba(21,21,21,0.95)');
+			 document.documentElement.style.setProperty('--card-bg-color', 'rgba(90, 88, 88, 1.00)');
+			document.documentElement.style.setProperty('--font-color', '#000000');
+			document.documentElement.style.setProperty('--about-panal', '#000000');
+			document.documentElement.style.setProperty('--search-bound', 'rgba(147,147,147,0.70)');
+			document.documentElement.style.setProperty('--slide-icon', 'rgba(0,0,0,0.73)');
+			document.documentElement.style.setProperty('--bg-shade', '#F8F8F8');
+			
             break;
 
         case "Night":
