@@ -4,6 +4,10 @@
 	transition: 1s all;
 }
 
+body{
+	overflow-x: hidden;
+}
+
 .top-img {
 	position: relative;
 }
@@ -110,7 +114,8 @@
 }
 
 .jCard {
-	width: 700px;
+	max-width: 700px;
+	width: 100%;
 	height: 250px;
 	border-radius: 8px;
 	margin: 12px;
@@ -119,7 +124,8 @@
 }
 
 .card-heading {
-	width: 250px;
+	max-width: 250px;
+	width: 35%;
 	height: 100%;
 	position: relative;
 	border-top-left-radius: 8px;
@@ -153,7 +159,8 @@
 	border: 1px solid #ccc;
 	padding: 5px;
 	background-color: #343434;
-	width: 450px;
+	max-width: 450px;
+	width: 65%;
 	position: relative;
 	border-top-right-radius: 8px;
 	border-bottom-right-radius: 8px;
@@ -251,6 +258,11 @@
 	height: 66px;
 }
 
+.left-card-row:hover{
+	transform: scale(1.15);
+	cursor: pointer;
+}
+
 .lc-row-img-p {
 	flex: 25;
 }
@@ -298,4 +310,8 @@
 	border-radius: 50px;
 	height: 100px;
 	width: 100px;
+}
+
+.btn-card:hover{
+	transform: translateY(-50%) scale(1.2);
 }
