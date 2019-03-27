@@ -5,8 +5,8 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="../data/candidate.json"></script>
 	<script src="../js/candidate-controller.js"></script>
 	<script src="../js/common.js"></script>
+	<script src="../js/manageTheme.js"></script>
 
 	<link rel="stylesheet" href="../css/candidate.css" />
 	<link rel="stylesheet" href="../css/lightBox.css" />
@@ -126,15 +127,27 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 
-				<li class="nav-item dropdown textFontsize mr-5">
+				<li class="nav-item dropdown textFontsize mr-2">
 					<a href="../index.html" class="nav-link">Home</a>
 				</li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
+				<li class="nav-item dropdown textFontsize mr-2">
 					<a href="#" class="nav-link">View Candidates</a>
 				</li>
+				
+				<li class="nav-item dropdown textFontsize mr-2">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Interviews</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="interview.html#first">Sample Interviews (Job Seekers)</a>
+						<a class="dropdown-item" href="interview.html#second">Interview Etiquette (Job Seekers)</a>
+						<a class="dropdown-item" href="interview.html#third">Avoid in interviews (Job Seekers)</a>
+						<a class="dropdown-item" href="interview.html#fourth">Sample Interviews (For Employers)</a>
+                        <a class="dropdown-item" href="interview.html#fifth">Tips for Employers</a>
+                    </div>
+                </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
+				<li class="nav-item dropdown textFontsize mr-2">
 					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
 						aria-haspopup="true" aria-expanded="false">Change Theme</a>
 					<div class="dropdown-menu">
@@ -145,14 +158,16 @@
 					</div>
 				</li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
+				<li class="nav-item dropdown textFontsize mr-2">
 					<a href="contact-us.html" class="nav-link">Contact Us</a>
 				</li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
+				<li class="nav-item dropdown textFontsize mr-2">
 					<a href="about-us.html" class="nav-link">About Us</a>
 				</li>
-
+			</ul>
+			<ul class="navbar-nav ml-auto" id="navRegister">
+                
 			</ul>
 		</div>
 	</nav>
