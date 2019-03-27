@@ -15,7 +15,7 @@
 	position: absolute;
 	top: 65%;
 	left: 7%;
-	color: white;
+	color: var(--bg-color);
 
 }
 
@@ -67,7 +67,7 @@
 }
 
 .sec-row-div {
-
+    background: var(--bg-color);
 	padding-top: 7%;
 	padding-bottom: 5%;
 	width: 100%;
@@ -173,7 +173,7 @@
 .w-font {
 	text-align: center;
 	width: 100%;
-	color: #CCC;
+	color: var(--bg-color);
 }
 
 .imgs-4 {
@@ -479,12 +479,12 @@ padding-right: 8px;
  }
 
 .top-coma {
-	color: red;
+	color: var(--icon-btn);
 	
 }
 
 .img-4-top-font {
-	color: red;
+	color: var(icon-color);
 	text-align: center;
 	font-weight: bold;
 	font-style: italic;
@@ -495,4 +495,8 @@ padding-right: 8px;
 	font-weight: 700;
 	font-style: italic;
 	font-size:2.5vw;
+}
+
+.bg-color {
+	background: var(--bg-color);
 }
