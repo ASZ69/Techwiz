@@ -6,8 +6,8 @@ candidates = [
 		location : "Quetta, Pakistan"
 	},
 	{
-		name : "Shafqat",
-		email: "shfqat@gmail.com",		
+		name : "shafqat",
+		email: "shafqat@gmail.com",		
 		skills : ["JAVA","XML","PHP"],
 		location : "Multan  , Pakistan"
 	},
@@ -52,6 +52,11 @@ candidates = [
 		email: "qasim@gmail.com",
 		skills : ["Angulor Js","JAVA","XML"],
 		location : "Rawalpindi , Pakistan"
+	},{
+		name : "Awais",
+		email: "awais@gmail.com",
+		skills : ["Angulor Js","JAVA","XML"],
+		location : "Rawalpindi , Pakistan"
 	},
 	{
 		name : "Sohaib",
@@ -62,12 +67,6 @@ candidates = [
 	{
 		name : "Usama khan",
 		email: "Usamakhan@gmail.com",
-		skills : ["Advance HTML","Advance HTML5","Advance CSS3"],
-		location : "Gujrat, Pakistan"
-	},
-	{
-		name : "Farhan",
-		email: "farhan@gmail.com",
 		skills : ["Advance HTML","Advance HTML5","Advance CSS3"],
 		location : "Gujrat, Pakistan"
 	},
@@ -156,38 +155,38 @@ candidates = [
 		location : "Attock, Pakistan"
 	},
 	{
-		name : "Shahtaj",
-		email: "Shahtaj@gmail.com",
+		name : "Hussam",
+		email: "Hussam@gmail.com",
 		skills : ["JAVA","XML","PHP"],
 		location : "Ferozwala, Pakistan"
 	},
 	{
-		name : "Sadiya",
-		email: "Sadiya@gmail.com",
+		name : "Hassan",
+		email: "Hassan@gmail.com",
 		skills : ["HTML5","AdvanceJAVa","XML"],
 		location : "Pakpattan, Pakistan"
 	},
 	{
-		name : "Uswa Rasool",
-		email: "UswaRasool@gmail.com",
+		name : "Haji shah",
+		email: "Hajishah@gmail.com",
 		skills : ["Advance Javacript","CSS3","PHP"],
 		location :"Balochistan, Pakistan"
 	},
 	{
-		name : "Maliha",
-		email: "Maliha@gmail.com",
+		name : "Hammad",
+		email: "Hammad@gmail.com",
 		skills : ["JAVA","Advance PHP","Advance HTML"],
 		location : "Islamabad, Pakistan"
 	},
 	{
-		name : "Tooba",
-		email: "Tooba@gmail.com",
+		name : "Nafees Rehman",
+		email: "NafeesRehman@gmail.com",
 		skills : ["JAVA","AdvanceXML","HTML4"],
 		location : "larkana, Pakistan"
 	},
 	{
-		name : "Sumera",
-		email: "Sumera@gmail.com",
+		name : "Qarar Hussain",
+		email: "QararHussain@gmail.com",
 		skills : ["HTML5","AdvanceJAVA","XML"],
 		location : "Kashmir, Pakistan"
 	},
@@ -196,12 +195,5 @@ candidates = [
 		email: "AliRaza@gmail.com",
 		skills : ["Angularjs","CSS3","java"],
 		location : "Lahore, Pakistan"
-	},
-	
-	{
-		name : "Awais",
-		email: "Awais@gmail.com",
-		skills : ["Angularjs","Advance CSS3","java"],
-		location : "Gujrat, Pakistan"
 	},
 ];

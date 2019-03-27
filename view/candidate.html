@@ -21,11 +21,36 @@
 	<script src="../js/common.js"></script>
 
 	<link rel="stylesheet" href="../css/candidate.css" />
+	<link rel="stylesheet" href="../css/lightBox.css" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/about-panel.css" />
 </head>
 
 <body ng-app="candidate" ng-controller="candidateController">
+	
+	<div class="top-light-box">
+		<script>
+			function closeBox(){
+				$('.top-light-box').css("display","none");
+			}
+		</script>
+		<button class="btn btn-danger light-box-close" onClick="closeBox()">&times;</button>
+		<div class="loginbox">
+		<img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+			<h1>Give Info</h1>
+			<form>
+				<p>Applicant Name</p>
+				<input id="logName" type="text" name="" placeholder="Enter Name" required>
+				<p>Email</p>
+				<input id="logEmail" type="email" name="" placeholder="Enter Email" required>
+				<p>Address</p>
+				<input id="logpassWord" type="text" name="" placeholder="Enter Address" required>
+				<input type="submit" name="" value="Apply Now" onClick="login(this)">
+
+			</form>
+			<h1 id="toast"></h1>
+		</div>
+	</div>
 
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
@@ -102,7 +127,7 @@
 					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<a href="#shafqat">
+					<a href="#Shafqat">
 						<div class="top-tag-p">
 							<div class="center-xy">
 								<center>
