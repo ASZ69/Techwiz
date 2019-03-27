@@ -337,18 +337,6 @@ body{
 	border-radius: 10px;
 }
 
-.top-light-box {
-	position: fixed;
-	top: 1%;
-	left: 1%;
-	width: 98%;
-	height: 98%;
-	background-color: #ccc;
-	z-index: 8550;
-}
 
-.light-box-close {
-	position: absolute;
-	top: 4px;
-	right: 4px;
-}
+
+

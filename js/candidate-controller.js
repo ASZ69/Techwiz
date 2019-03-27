@@ -24,3 +24,7 @@ jobs.controller("candidateController", function ($scope, $filter) {
 	}	
 
 });
+
+function openPostJob(){
+	$('.top-light-box').css("display","block");
+}

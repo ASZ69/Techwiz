@@ -33,21 +33,45 @@
 			function closeBox(){
 				$('.top-light-box').css("display","none");
 			}
+			function apply(){
+				
+				var logName = document.getElementById('logName').value;
+				var logEmail = document.getElementById('logEmail').value;
+				var jobTitle = document.getElementById('jobTitle').value;
+				var jobDisc = document.getElementById('jobDisc').value;
+				
+				if(logName == "" || logEmail == "" || jobTitle = "" || jobDisc = ""){
+				   alert("type name, email");
+				}else{
+					$('#toast').html('Email Sent');
+					setTimeout(function(){
+						$('.top-light-box').css("display","none");
+					},2000);
+				}
+			}
 		</script>
 		<button class="btn btn-danger light-box-close" onClick="closeBox()">&times;</button>
 		<div class="loginbox">
-		<img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+			<img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
 			<h1>Give Info</h1>
 			<form>
-				<p>Applicant Name</p>
-				<input id="logName" type="text" name="" placeholder="Enter Name" required>
-				<p>Email</p>
-				<input id="logEmail" type="email" name="" placeholder="Enter Email" required>
-				<p>Address</p>
-				<input id="logpassWord" type="text" name="" placeholder="Enter Address" required>
-				<input type="submit" name="" value="Apply Now" onClick="login(this)">
-
+				<center>
+					<p>Name</p>
+					<input id="logName" type="text" name="" placeholder="Enter Name" required>
+					<br><br>
+					<p>Email</p>
+					<input id="logEmail" type="email" name="" placeholder="Enter Email" required>
+					<br><br>
+					<p>Job Title</p>
+					<input id="jobTitle" type="text" name="" placeholder="Enter Title" required>
+					<br><br>
+					<p>Job Discription</p>
+					<textarea id="jobDisc" type="text" name="" placeholder="Enter Discription" required></textarea>
+					<br><br>
+					<input type="submit" name="" value="Post Now" onClick="apply(this)">
+				</center>
 			</form>
+			<br>
 			<h1 id="toast"></h1>
 		</div>
 	</div>
@@ -197,7 +221,7 @@
 
 <!--	<hr class="main-line">-->
 	
-	<button class="btn btn-danger btn-block top-btn">Post a Job</button>
+	<button class="btn btn-danger btn-block top-btn" onClick="openPostJob()">Post a Job</button>
 
 	<div class="container">
 		<div class="row">
