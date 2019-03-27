@@ -26,8 +26,10 @@ $(document).ready(function(){
 	}
 	
 	var line = '<a href="view/'+url+'" class="nav-link">'+text+'</a>';
+	var line2 = '<a href="'+url+'" class="nav-link">'+text+'</a>';
 	
 	$('#navJob').html(line);
+	$('#navJob2').html(line2);
 	
 	$('#mainHead').html(text+" Easily");
 	
