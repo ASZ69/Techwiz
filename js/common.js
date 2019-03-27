@@ -18,7 +18,7 @@ $(document).ready(function(){
 	var text = "";
 	var url = "";
 	if(window.localStorage.getItem("type") == "I'm a Job Seeker"){
-		text = "Find Jobs";
+		text = "View Jobs";
 		url = "jobs.html";
 	}else{
 		text = "Post Jobs";

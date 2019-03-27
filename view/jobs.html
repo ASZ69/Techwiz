@@ -15,8 +15,8 @@
 	<!--angularjs-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
     <!--angularjs end-->
-    	<script src="../js/manageTheme.js"></script>
-
+	
+	<script src="../js/manageTheme.js"></script>
 
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<script type="text/javascript" src="../data/data.json"></script>
@@ -30,52 +30,54 @@
 
 <body ng-app="jobs" ng-controller="jobsController">
 	
-	
+    
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
-		<a class="navbar-brand" href="#">
-			<img src="../images/logo-red.png" class="nav-logo" alt="LOGO"> Job Portals
-		</a>
+        <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo-red.png" class="nav-logo" alt="LOGO"> Job Portals
+        </a>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
 
-				<li class="nav-item dropdown textFontsize mr-5">
-					<a href="../index.html" class="nav-link">Home</a>
-				</li>
+                <li class="nav-item dropdown textFontsize mr-5">
+                    <a href="../index.html" class="nav-link" >Home</a>
+                </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
-					<a href="#" class="nav-link">Jobs</a>
-				</li>
+                <li class="nav-item dropdown textFontsize mr-5" id="navJob2">
+					
+                </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
-					<a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">Job List</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Day</a>
-						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Day (Colored)</a>
-						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Night</a>
-						<a class="dropdown-item" onClick="changeTheme(this)" href="#">Night (Colored)</a>
-					</div>
-				</li>
+                <li class="nav-item dropdown textFontsize mr-5">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Change Theme</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" onClick="changeTheme(this)" href="#">Day</a>
+                        <a class="dropdown-item" onClick="changeTheme(this)" href="#">Day (Colored)</a>
+                        <a class="dropdown-item" onClick="changeTheme(this)" href="#">Night</a>
+                        <a class="dropdown-item" onClick="changeTheme(this)" href="#">Night (Colored)</a>
+                    </div>
+                </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
-					<a href="view/about.html" class="nav-link">Contact Us</a>
-				</li>
+                <li class="nav-item dropdown textFontsize mr-5">
+                    <a href="../view/contact-us.html" class="nav-link">Contact Us</a>
+                </li>
 
-				<li class="nav-item dropdown textFontsize mr-5">
-					<a href="view/about.html" class="nav-link">About Us</a>
-				</li>
-
+                <li class="nav-item dropdown textFontsize mr-5">
+                    <a href="../view/about-us.html" class="nav-link active">About Us</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto" id="navRegister">
+                
 			</ul>
-		</div>
-	</nav>
-
+        </div>
+    </nav>
+  
 	<div class="top-img">
 		<img src="../images/crousal/slide1.jpg" alt="img" width="100%" height="500px">
 		<h1 class="center-xy heading">Find Jobs Easily</h1>

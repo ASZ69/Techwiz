@@ -42,15 +42,16 @@
 	}
 .form-heading{
 	font-size:2vw;
-	margin:5%;
+	margin: 8% -12% 2% 0;
 	}
 .input-Div input{
-    width: 50%;	
+    width: 60%;
 }
 
 .input-Div input[type="text"],input[type="email"]
 {   
-    height:50px;
+    height:5vw;
+    width: 83% !important;
     /*border: 1px groove;*/
     background: transparent;
     outline: none;
@@ -61,7 +62,7 @@
 {    
      /*height:150px;*/
      /*border:1px solid;*/
-	 width:80%;
+     width: 83% !important;
 	 background:transparent;
 	 color:var(--font-color);
 	max-height: 300px;
@@ -88,10 +89,10 @@
 }
 .inner-Uper-Div{
 	opacity:0.5;
-		background:transparent;	
+	background:transparent;	
 }
 .textArea{
-	width:80%;
+	width:83%;
 	height:12vw;
 	}
 .right-Heading{

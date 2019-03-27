@@ -1,4 +1,4 @@
-icons-cl// JavaScript Document
+// JavaScript Document
 
 $(document).ready(function () {
     var selected = localStorage.getItem("Theme");

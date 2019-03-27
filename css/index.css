@@ -215,7 +215,7 @@ a:hover{
 }
 
 .card-button {
-	background:var(--index-overlay);
+	background: rgba(0,0,0,0.2);
 	text-align: center;
 	color:var(--icon-btn);
 	font-weight: bolder;
@@ -537,6 +537,7 @@ padding-right: 8px;
 	text-align: center;
 	font-weight: 700;
 	font-size:2.5vw;
+	font-family: 'Germania One', cursive;
 }
 
 .bg-color {
