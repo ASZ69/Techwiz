@@ -47,3 +47,13 @@ jobs.controller("jobsController", function ($scope, $filter) {
 	}	
 
 });
+
+function left(){
+	var vidF = document.getElementById('firstVid');
+	vidF.style.marginLeft = "40px";
+}
+
+function right(){
+	var vidF = document.getElementById('firstVid');
+	vidF.style.marginLeft = "-95%";
+}

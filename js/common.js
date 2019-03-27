@@ -15,6 +15,20 @@ $(document).ready(function(){
 	
 	$('#date').html(new Date().getFullYear() +"-"+(parseInt(new Date().getMonth())+1)+"-"+new Date().getDate());
 	
+	var text = "";
+	var url = "";
+	if(window.localStorage.getItem("type") == "I'm a Job Seeker"){
+		text = "Find Jobs";
+		url = "jobs.html";
+	}else{
+		text = "Post Jobs";
+		url = "candidate.html";
+	}
+	
+	var line = '<a href="view/'+url+'" class="nav-link">'+text+'</a>';
+	
+	$('#navJob').html(line);
+	
    var auth = window.localStorage.getItem("auth");
    var name = window.localStorage.getItem("name");
     if(auth == "true"){
@@ -30,4 +44,16 @@ function signOut(){
 	window.localStorage.removeItem("auth");
 	window.localStorage.removeItem("name");
 	window.localStorage.removeItem("type");
+}
+
+function doSearch(ref){
+	var url = "";
+	if(window.localStorage.getItem("type") == "I'm a Job Seeker"){
+		url = "jobs.html";
+	}else{
+		url = "candidate.html";
+	}
+	
+	var inp = $('#searchInp').val();
+	window.location.href = "view/"+url+"?search="+inp;
 }
