@@ -35,8 +35,8 @@
 	}
 .form-Div{
 	height:700px;
-	border-top:5px solid;
-	border-bottom:5px solid;
+	border-top:10px solid;
+	border-bottom:10px solid;
     background-color: whitesmoke;
 	}
 .form-heading{
@@ -197,7 +197,8 @@
 }
 .sub-Div {
     height:700px;
-    border-top:5px solid;
+    border-top:10px solid;
+    border-bottom: 10px solid;
     background-color: whitesmoke;
 }
 
