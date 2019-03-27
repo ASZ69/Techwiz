@@ -21,7 +21,6 @@
 	<script type="text/javascript" src="../data/data.json"></script>
 	<script src="../js/data.js"></script>
 	<script src="../js/jobs-controller.js"></script>
-	<script src="../js/common.js"></script>
 
 	<link rel="stylesheet" href="../css/jobs.css" />
 	<link rel="stylesheet" href="../css/common.css" />
@@ -181,9 +180,59 @@
 	</div>
 
 <!--	<hr class="main-line">-->
+	<script>
+		function left(){
+			var vidF = document.getElementById('firstVid');
+			vidF.style.marginLeft = "0px";
+		}
+		
+		function right(){
+			var vidF = document.getElementById('firstVid');
+			vidF.style.marginLeft = "-99%";
+		}
+	</script>
+	<h4 class="text-center">Interview Videos</h4>
+	<div class="vid-p">
+		<button class="fas fa-angle-left m-3 btn btn-danger btn-pre" onClick="left()"></button>
+		<div class="video-row">
+			<video controls style="margin-top: 12px; margin-bottom: 12px;" width="22%" height="200px" id="firstVid">
+				<source src="../videos/1.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/2.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/3.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/4.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/5.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/6.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/7.mp4">
+			</video>
+
+			<video controls class="m-3" width="22%" height="200px">
+				<source src="../videos/8.mp4">
+			</video>
+		</div>
+		<button class="fas fa-angle-right btn btn-danger btn-pre" onClick="right()" style="right: 0px; top: 40%"></button>
+	</div>
 
 	<div class="container">
 		<div class="row">
+			
 			<div class="col-md-4">
 				<br>
 				<center>
@@ -422,6 +471,7 @@
 					
 				</center>
 			</div>
+			
 			<div class="col-md-8">
 				<h3 class="text-center">{{subCat}}</h3>
 
@@ -456,6 +506,7 @@
 
 				</div>
 			</div>
+			
 		</div>
 
 	</div>
@@ -528,12 +579,12 @@
 
 	<!--	 Footer-->
 	<div class="footer-div">
-		<footer>Copyright TechWiz &copy;- All rights Reserved</footer>
-	</div>
+        <footer><span class="ml-5 float-left">Date &amp; Time : <span id="date"></span></span> Copyright TechWiz &copy;- All rights Reserved <span class="mr-5 float-right">Page Views : <span id="pgView"></span></span></footer>
+    </div>
 	<!--	footer end-->
 
 </body>
-	 <script src="../js/appair.js"></script>
-     <script src="../js/animate.js"></script>
-
+	<script src="../js/appair.js"></script>
+    <script src="../js/animate.js"></script>
+	<script src="../js/common.js"></script>
 </html>

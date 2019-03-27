@@ -315,3 +315,30 @@ body{
 .btn-card:hover{
 	transform: translateY(-50%) scale(1.2);
 }
+
+.video-row {
+	width: 94%;
+	overflow: hidden;
+	display: flex;
+	padding: 5px 25px;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.vid-p {
+	display: flex;
+	flex-wrap: nowrap;
+	position: relative;
+}
+
+.btn-pre {
+	position: absolute;
+	top: 30%;
+	width: 3%;
+	margin-right: 10px;
+	margin-left: 10px;
+/*	height: 200px;*/
+	height: 50px;
+	border-radius: 50px;
+	z-index: 5;
+}
