@@ -20,6 +20,7 @@
 	<script src="../js/common.js"></script>
 
 	<link rel="stylesheet" href="../css/viewJob.css" />
+	<link rel="stylesheet" href="../css/lightBox.css" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/about-panel.css" />
 	
@@ -27,6 +28,47 @@
 </head>
 
 <body ng-app="jobView" ng-controller="jobViewController">
+	
+	<!--	hire job box-->
+	<div class="top-light-box" id="applyForJob">
+		<script>
+			function closeBox(){
+				$('.top-light-box').css("display","none");
+			}
+			function applay(){
+				if($('#lbName').val() == "" || $('#lbEmail').val() == "" || $('#lbTitle').val() == ""){
+					$('#toast').html('Fill all fields');
+				}else{
+				   	$('#toast').html('Email Sent to that candidate');
+					setTimeout(function(){
+						$('.top-light-box').css("display","none");
+					},2000);
+				}
+			}
+		</script>
+		<button class="btn btn-danger light-box-close" onClick="closeBox()">&times;</button>
+		<div class="loginbox">
+			<img src="../images/login & sign up/avatar.png" class="avatar" alt="image">
+			<h1>Give Info</h1>
+			<form>
+				<center>
+					<p>Name</p>
+					<input id="lbName" type="text" name="" placeholder="Enter Name" required>
+					<br><br>
+					<p>Email</p>
+					<input id="lbEmail" type="email" name="" placeholder="Enter Email" required>
+					<br><br>
+					<p>Job Title</p>
+					<input id="lbTitle" type="text" name="" placeholder="Company Title" required>
+					<br><br>
+					<input type="submit" name="" value="Hire Now" onClick="applay(this)">
+				</center>
+			</form>
+			<br>
+			<h1 id="toast"></h1>
+		</div>
+	</div>
+<!--	hire job box-->
 	
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-fixed-top">
 
@@ -43,7 +85,7 @@
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item dropdown textFontsize mr-5">
-                    <a href="index.html" class="nav-link active" >Home</a>
+                    <a href="../index.html" class="nav-link active" >Home</a>
                 </li>
 
                 <li class="nav-item dropdown textFontsize mr-5" id="navJob2">
@@ -62,11 +104,11 @@
                 </li>
 
                 <li class="nav-item dropdown textFontsize mr-5">
-                    <a href="view/contact-us.html" class="nav-link">Contact Us</a>
+                    <a href="../view/contact-us.html" class="nav-link">Contact Us</a>
                 </li>
 
                 <li class="nav-item dropdown textFontsize mr-5">
-                    <a href="view/about-us.html" class="nav-link">About Us</a>
+                    <a href="../view/about-us.html" class="nav-link">About Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto" id="navRegister">
@@ -230,7 +272,7 @@
 						<br>
 						<h4 class="text-center">{{jobData.location}}</h4>
 					</div>
-				<div class="apply-btn"><a class="text-cl" href="jobs.html">Apply Now</a></div>	
+				<div class="apply-btn" onClick="openApplyJob()">Apply Now</div>
 				</div>
 				
 			</div>
