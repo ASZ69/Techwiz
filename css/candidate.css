@@ -2,6 +2,11 @@
 * {
 	box-sizing: border-box;
 	transition: 1s all;
+	scroll-behavior: smooth;
+}
+
+a{
+	color: inherit;
 }
 
 body{
@@ -210,6 +215,7 @@ body{
 .tag-quantity {
 	border-radius: 15px;
 	background-color: #E1E1E1;
+	padding: 2px 7px;
 }
 
 .top-icon-colors {
@@ -312,4 +318,21 @@ body{
 
 .btn-card:hover{
 	transform: translateY(-50%) scale(1.2);
+}
+
+.cardTags>span {
+	background-color: #5B5B5B;
+	border-radius: 3px;
+	padding: 5px 8px;
+	margin: 3px;
+	color: white;
+	display: inline-block;
+	font-size: 1vw;
+}
+
+.top-btn {
+	width: 90%;
+	height: 56px;
+	margin: 15px auto;
+	border-radius: 10px;
 }

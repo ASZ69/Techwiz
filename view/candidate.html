@@ -89,76 +89,90 @@
 		<div class="container-fluid">
 			<div class="row" style="height: 200px;">
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','JavaScript')">
-						<div class="center-xy">
-							<center>
-								<div class="fab fa-js-square fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">Javascript</h6>
-							<div class="text-center tag-quantity">200</div>
+					<a href="#Awais">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="fas fa-user fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Awais</h6>
+								<div class="text-center tag-quantity">Android</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','Android Studio')">
-						<div class="center-xy">
-							<center>
-								<div class="fab fa-android fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">Android</h6>
-							<div class="text-center tag-quantity">180</div>
+					<a href="#shafqat">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="far fa-user fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Shafqat</h6>
+								<div class="text-center tag-quantity">Java</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Computer Programming','React Native')">
-						<div class="center-xy">
-							<center>
-								<div class="fab fa-react fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">React-Native</h6>
-							<div class="text-center tag-quantity">40</div>
+					<a href="#Zeeshan">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="fas fa-user-alt fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Zeeshan</h6>
+								<div class="text-center tag-quantity">PHP</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Teaching','Professor')">
-						<div class="center-xy">
-							<center>
-								<div class="fas fa-user-tie fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">Professor</h6>
-							<div class="text-center tag-quantity">95</div>
+					<a href="#Farhan">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="fas fa-user-tie fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Farhan</h6>
+								<div class="text-center tag-quantity">Python</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Doctor','Psychiatrist')">
-						<div class="center-xy">
-							<center>
-								<div class="fas fa-user-md fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">Psychiatrist</h6>
-							<div class="text-center tag-quantity">325</div>
+					<a href="#Nouman">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="far fa-user-circle fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Nouman</h6>
+								<div class="text-center tag-quantity">ASP.NET</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="col-sm-2 padDel">
-					<div class="top-tag-p" ng-click="setCatsData('Banking','Manager')">
-						<div class="center-xy">
-							<center>
-								<div class="fas fa-crown fa-3x top-icon-colors"></div>
-							</center>
-							<h6 class="text-center">Manager</h6>
-							<div class="text-center tag-quantity">140</div>
+					<a href="#Imran">
+						<div class="top-tag-p">
+							<div class="center-xy">
+								<center>
+									<div class="fas fa-user-md fa-3x top-icon-colors"></div>
+								</center>
+								<h6 class="text-center">Imran</h6>
+								<div class="text-center tag-quantity">MVC</div>
+							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 
 <!--	<hr class="main-line">-->
+	
+	<button class="btn btn-danger btn-block top-btn">Post a Job</button>
 
 	<div class="container">
 		<div class="row">
@@ -406,7 +420,7 @@
 
 				<div class="cards-p">
 
-					<div class="jCard" ng-repeat="card in cards | filter:search">
+					<div class="jCard" ng-repeat="card in cards | filter:search" id="{{card.name}}">
 						<div class="card-heading">
 							<h4 class="card-head center-xy text-white">{{card.name}}</h4>
 							<img src="../images/persons/{{card.name}}.jpg" width="100%" height="100%" alt="img" />
@@ -420,10 +434,13 @@
 							</div>
 							<h5 class="card-discrip-head mb-2">
 								<i class="fas fa-file-alt mr-1" style="color: yellow"></i>
-								Skills : <span ng-repeat="tag in card.skills">{{tag}}</span>
+								Skills : <br><br>
+								<div class="cardTags">
+									<span ng-repeat="tag in card.skills">{{tag}}</span>
+								</div>
 							</h5>
 							<button ng-click="cardClick($event)" class="btn btn-danger btn-card">
-								View
+								Hire
 							</button>
 						</div>
 					</div>

@@ -6,8 +6,8 @@ candidates = [
 		location : "Quetta, Pakistan"
 	},
 	{
-		name : "shfqat",
-		email: "shfqat@gmail.com",		
+		name : "shafqat",
+		email: "shafqat@gmail.com",		
 		skills : ["JAVA","XML","PHP"],
 		location : "Multan  , Pakistan"
 	},
@@ -50,6 +50,11 @@ candidates = [
 		{
 		name : "qasim",
 		email: "qasim@gmail.com",
+		skills : ["Angulor Js","JAVA","XML"],
+		location : "Rawalpindi , Pakistan"
+	},{
+		name : "Awais",
+		email: "awais@gmail.com",
 		skills : ["Angulor Js","JAVA","XML"],
 		location : "Rawalpindi , Pakistan"
 	},
