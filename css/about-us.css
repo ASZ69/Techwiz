@@ -13,19 +13,19 @@
 	
 .about-top{
 	height:200px;
-	border:1px solid;
 	border-radius:15px;
 	margin:auto;
 	margin-top:-50px;
 	z-index:99;
 	position:relative;
+	background: var(--nav-color);
 	}
 	
 .heading{
 	padding-top:40px;
 	font-size:5vw;
 	letter-spacing:0.28px;
-	color:red;
+	color:var(--icon-btn);
 	text-align:center;
 	}
 .main-parag{
@@ -34,23 +34,16 @@
 	opacity:0.5;
 	}
 	
-h1, h2 {
-    color: red;
-}
 
-h2 {
-    font-size: 2.4vw;
-}
-
+/*
 p {
-    color:white;
-    margin: 10%;
-    font-size: 2vw;
+   
 }
+*/
 
 .top-heading {
     font-size: 3.6vw;
-    border-bottom: 8px double #fff;
+    border-bottom: 8px red;
     width: 17vw;
     margin: 66px auto 10px;
     text-align: center;
@@ -63,14 +56,14 @@ p {
 .p-parent {
     margin: 20px;
     padding: 15px 5px;
-    background-color: #333;
+    background-color: var(--circle-bg-color);
     position: relative;
     z-index: 1;
     transition: 1s all;
 }
 
 .p-parent:hover {
-        opacity: 0.4;
+        opacity: 0.8;
         cursor: pointer;
     }
 
@@ -91,8 +84,9 @@ p {
 .image-Heading{
 	padding-top:10px;
 	text-align:center;
+	font-weight: bolder;
 	font-size:1.7vw;
-	color:red;
+	color:var(--font-color);
 	}	
 	
 .inner-Parag{
@@ -101,17 +95,19 @@ p {
 	}
 .inner-parag{
 	padding-top:30px;
+	font-weight: bolder;
 	font-size:1.5vw;
 	text-align:center;
     letter-spacing:0.5px;
-	color:red;
+	color:var(--font-color);
 	}
 .images-child{
 /*    border-radius:50%;*/
 	}
 .image-child-Heading{
 	font-size:1.7vw;
-	color:red;
+	color:var(--font-color);
+	font-weight: bolder;
 	text-align:center;
     padding-top:10px;
 	}
@@ -123,7 +119,8 @@ p {
 	}
 .child-parag{
 	color:red;
-	font-size:1.2vw;
+	font-size:1.3vw;
+	font-weight: bolder;
 	text-align:center;
 	}
 .fa-icon{
@@ -151,6 +148,7 @@ p {
 	
 	/* about Penal start */ 
 
+/*
 .about-panel {
 	background-color: #393939; 
 	padding: 30px;
@@ -195,15 +193,18 @@ p {
 }
 
 .icon-bar {
+*/
 /*
 	  position: fixed;
 	  top: 50%;
 	  -webkit-transform: translateY(-50%);
 	  -ms-transform: translateY(-50%);
 	  transform: translateY(-50%);
-*/
 }
+*/
 
+
+/*
 .icon-bar a {
 	display: inline-block;
 	text-align: center;
@@ -241,4 +242,19 @@ p {
 .youtube {
 	background: #bb0000;
 	color: white;
+}
+*/
+
+
+.fonts-Icons {
+	font-size: 1vw !important;
+	color: var(--icon-btn);
+	margin:1%;
+}
+
+
+
+.text-heading {
+font-size: 2.4vw;
+	color:var(--font-color);
 }

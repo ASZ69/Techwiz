@@ -12,13 +12,13 @@
 	font-size: 3vw;
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color:var(--bg-color);
 	width: 100%;
 }
 .top-heading {
 	width: 100%;
 	height: 60px;
-	background-color: orangered;
+	background-color: var(--icon-btn);
 	border-radius: 8px;
 }
 
@@ -30,7 +30,7 @@
 	line-height: 60px;
 	float: left;
 	margin-left: 1vw;
-	color: white;
+	color: var(--bg-color);
 }
 
 .btn-back {
@@ -57,7 +57,7 @@
 }
 
 .res-icons {
-	color: orangered;
+	color: var(--icon-btn);
 }
 
 .salery-p {
@@ -68,7 +68,7 @@
 
 .sal-icon {
 	padding-right: 10px;
-	color: orangered;
+	color: var(--icon-btn);
 }
 
 .map {
@@ -76,11 +76,12 @@
 }
 
 .sub-box-left {
+	background-color: var(--bg-color);
 	padding: 35px 3%;
 }
 
 .top-man-icon {
-	color: orangered;
+	color: var(--icon-btn);
 }
 
 .icon-left-p {
@@ -90,12 +91,12 @@
 }
 
 .left-icon {
-	color: orangered;
+	color: var(--icon-btn);
 }
 
 .left-line {
 	width: 80%;
-	background-color: #CDCDCD;
+	
 }
 
 .left-row {
@@ -113,6 +114,7 @@
 
 .left-main {
 	margin-left: 8vw;
+	
 }
 
 .ad {
@@ -130,12 +132,25 @@
 	width: 90%;
 	margin: -50px auto 10px;
 	height: 200px;
-	background-color: #666666;
+	background-color: var(--nav-color);
 }
 
-.btn-last {
+.btn-bg {
+	background:var(--nav-color);
+	color:var(--bg-color);
+}
+.btn-bg:hover{
+	
+	background: var(--bg-color);
+	color: var(--icon-btn);
+	transition: 1.5s all;
+}
+
+.apply-btn {
 	padding: 12px 21px;
-	background: rgba(255,0,0,1.00);
+	background:var(--hover-btn);
+	text-decoration: none;
+	color: var(--bg-color); 
 	width: 80%;
 	text-align: center;
 	border-radius: 40px;
@@ -145,6 +160,17 @@
 	margin-right: 10%;
 }
 
-.btn-last:hover {
+.apply-btn:hover{
+	background: var(--nav-color);
+	transition: 1.5s all;
 	cursor: pointer;
+}
+
+.text-cl {
+	text-decoration: none; 
+	color:var(--bg-color);
+}
+.text-cl:hover {
+	text-decoration: none;
+	color:var(--bg-color);
 }

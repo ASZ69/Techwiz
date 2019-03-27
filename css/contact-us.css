@@ -13,12 +13,12 @@
 	
 .about-top{
 	height:200px;
-	border:1px solid;
 	border-radius:15px;
 	margin:auto;
 	margin-top:-50px;
 	z-index:99;
 	position:relative;
+	background: var(--nav-color);
 	}
 	
 .heading{
@@ -29,14 +29,15 @@
 	text-align:center;
 	}
 .main-parag{
+	color: var(--bg-color) !important;
 	text-align:center;
 	font-size:2vw;
 	opacity:0.5;
 	}
 .form-Div{
 	height:700px;
-	border-top:10px solid;
-	border-bottom:10px solid;
+	border-top:10px solid  var(--icon-btn);
+	border-bottom:10px solid var(--icon-btn);
     background-color: whitesmoke;
 	}
 .form-heading{
@@ -50,7 +51,7 @@
 .input-Div input[type="text"],input[type="email"]
 {   
     height:50px;
-    border: 1px groove;
+    /*border: 1px groove;*/
     background: transparent;
     outline: none;
     color: #000;
@@ -58,11 +59,12 @@
 }
 .input-Div input[type="massage"]
 {    
-     height:150px;
-     border:1px solid;
-	 width:100%;
+     /*height:150px;*/
+     /*border:1px solid;*/
+	 width:80%;
 	 background:transparent;
-	 color:#000;
+	 color:var(--font-color);
+	max-height: 300px;
 	}
 
 .input-Div input[type="submit"]
@@ -70,17 +72,19 @@
     border: none;
     outline: none;
     height: 50px;
-    background: yellow;
-    color: #000;
+    background: var(--icon-btn);
+    color: var(--bg-color);
     font-size: 2vw;
+	font-weight: 700;
 	border-radius:5px;
     margin-left: -110px;
 }
 .input-Div input[type="submit"]:hover
 {
     cursor: pointer;
-    background: #ffc107;
-    color: #000;
+	transition: 1.5s all;
+    background: var(--font-color);
+    color: var(--icon-btn);
 }
 .inner-Uper-Div{
 	opacity:0.5;
@@ -197,8 +201,8 @@
 }
 .sub-Div {
     height:700px;
-    border-top:10px solid;
-    border-bottom: 10px solid;
+    border-top:10px solid var(--icon-btn);
+    border-bottom: 10px solid var(--icon-btn);
     background-color: whitesmoke;
 }
 
@@ -208,5 +212,5 @@
 
 .fa-icons { 
        font-size: 2vw;
-       
+	    color: var(--icon-btn);
 }
