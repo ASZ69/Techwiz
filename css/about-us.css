@@ -60,6 +60,7 @@ p {
     position: relative;
     z-index: 1;
     transition: 1s all;
+	 border-radius: 12px;
 }
 
 .p-parent:hover {
