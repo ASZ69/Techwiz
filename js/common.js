@@ -51,8 +51,7 @@ function signOut(){
 	window.localStorage.removeItem("auth");
 	window.localStorage.removeItem("name");
 	window.localStorage.removeItem("type");
-//	window.location.href = window.location.pathname;
-	history.go(-2);
+	window.location.href = window.location.hostname;
 }
 
 function doSearch(ref){
