@@ -180,7 +180,7 @@
 			<center>
 				<div class="search">
 					<input type="text" class="form-control search-box mr-2" placeholder="Search Candidates By Name,Skills or Location" ng-model="search">
-					<button type="submit" class="btn btn-primary btn-search">Search</button>
+					<button type="submit" class="btn btn-search">Search</button>
 				</div>
 			</center>
 		</div>
@@ -273,7 +273,7 @@
 
 <!--	<hr class="main-line">-->
 	
-	<button class="btn btn-danger btn-block top-btn" onClick="openPostJob()">Post a Job</button>
+	<button class="btn btn-block top-btn" onClick="openPostJob()">Post a Job</button>
 
 	<div class="container">
 		<div class="row">
@@ -281,10 +281,9 @@
 			<div class="col-md-4">
 				<br>
 				<center>
-					
 					<div class="left-card">
 						<br>
-						<h5>Latest Jobs</h5>
+						<h5 style="color: var(--icon-btn)">Latest Jobs</h5>
 						<br><br>
 						<div class="left-card-row" ng-click="setCatsData('Computer Programming','React Native')">
 							<div class="lc-row-img-p">
@@ -358,13 +357,13 @@
 					</div>
 					
 					<br><br>
-					<h6>Place For Ad</h6>
+					<h6  style="color: var(--icon-btn)">Place For Ad</h6>
 					<img src="../images/contact-images/ads.jpg" width="95%" height="auto" alt="D">
 					<br><br>
 					
 					<div class="left-card">
 						<br>
-						<h5>Featured Jobs</h5>
+						<h5  style="color: var(--icon-btn)">Featured Jobs</h5>
 						<br><br>
 						<div class="left-card-row">
 							<div class="lc-row-img-p">
@@ -441,7 +440,7 @@
 					
 					<div class="left-card">
 						<br>
-						<h5>Top Jobs Cities</h5>
+						<h5 style="color: var(--icon-btn)">Top Jobs Cities</h5>
 						<br><br>
 						<div class="left-card-row">
 							<div class="lc-row-img-p">
@@ -540,7 +539,7 @@
 									<span ng-repeat="tag in card.skills">{{tag}}</span>
 								</div>
 							</h5>
-							<button onClick="openHireJob()" class="btn btn-danger btn-card">
+							<button onClick="openHireJob()" class="btn btn-card">
 								Hire
 							</button>
 						</div>
